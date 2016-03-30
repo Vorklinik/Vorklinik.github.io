@@ -47,7 +47,7 @@ title: "Leitfragen des 1. Abschnitts der Ärztlichen Prüfung"
 - Lorem ipsum dolor sit amet?
 - Lorem ipsum dolor sit amet?
 - Lorem ipsum dolor sit amet?
-- 
+
 ## Physiologie
 
 - Lorem ipsum dolor sit amet?

@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css">
+	</head>
+	
+	<body>
+		<nav>
+    		<ul class="flex-container">
+			{% assign current = page.url | downcase | split: '/' %}
+	    		<li><a href='{{site.baseurl}}/Home' {% if current[1] == "home" %} style="color:#F38630;"{% endif %}>Biologie</a></li>
+	    		<li><a href='{{site.baseurl}}/Biologie' {% if current[1] == "biologie" %} style="color:#F38630;"{% endif %}>Biologie</a></li>
+    		</ul>	
+		</nav>
+		
+		<div class="container" style="text-align: justify">
+			{{ content }}
+		</div>
+			
+		<footer>
+        <ul>
+         <li><a href='{{site.baseurl}}/Impressum' {% if current[1] == "impressum" %} style="color:#F38630;"{% endif %}>Impressum</a></li>
+        </ul>
+		</footer>
 
+	</body>
+</html>

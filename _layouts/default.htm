@@ -4,7 +4,6 @@
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css">
 	</head>
-	
 	<body>
 		<nav>
     		<ul class="flex-container">
@@ -21,16 +20,13 @@
 	    		<li><a href='{{site.baseurl}}/' {% if current[1] == "psysoz" %} style="color:#F38630;"{% endif %}>PsySoz</a></li>
     		</ul>	
 		</nav>
-		
 		<div class="container" style="text-align: justify">
 			{{ content }}
 		</div>
-			
 		<footer>
         <ul>
          <li><a href='{{site.baseurl}}/Impressum' {% if current[1] == "impressum" %} style="color:#F38630;"{% endif %}>Impressum</a></li>
         </ul>
 		</footer>
-
 	</body>
 </html>

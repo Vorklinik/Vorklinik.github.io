@@ -38,3 +38,8 @@ notes: active
                  <a rel="next" class="next"></a>
             {% endif %}
 </div>
+{% unless page.categories contains 'Home' %}
+<div class="notecomments"> 
+	{% include disqus.html %}
+</div>
+{% endunless %}

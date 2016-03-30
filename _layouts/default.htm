@@ -9,7 +9,7 @@
 		<nav>
     		<ul class="flex-container">
 			{% assign current = page.url | downcase | split: '/' %}
-	    		<li><a href='{{site.baseurl}}/Home' {% if current[1] == "home" %} style="color:#F38630;"{% endif %}>Biologie</a></li>
+	    		<li><a href='{{site.baseurl}}/Home' {% if current[1] == "home" %} style="color:#F38630;"{% endif %}>Home</a></li>
 	    		<li><a href='{{site.baseurl}}/Biologie' {% if current[1] == "biologie" %} style="color:#F38630;"{% endif %}>Biologie</a></li>
     		</ul>	
 		</nav>

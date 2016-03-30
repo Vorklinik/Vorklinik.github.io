@@ -1,0 +1,13 @@
+---
+layout: default
+title: Biologie
+category: Biologie
+active: Biologie
+---
+	<h1>{{ page.title }}</h1>
+	<ul class="posts">
+	  {% for post in site.categories.Biologie reversed %}
+	    <li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}	  
+	</ul>
+

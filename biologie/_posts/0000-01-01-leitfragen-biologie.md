@@ -3,7 +3,7 @@ layout: post
 title: "Leitfragen der Biologie"
 ---
 
-## L101
+## L101 Einführung in die Biologie
 
 - Lorem ipsum dolor sit amet?
 - Lorem ipsum dolor sit amet?
@@ -12,7 +12,7 @@ title: "Leitfragen der Biologie"
 - Lorem ipsum dolor sit amet?
 - Lorem ipsum dolor sit amet?
 
-## L102
+## L102 Zellbiologie
 
 - Lorem ipsum dolor sit amet?
 - Lorem ipsum dolor sit amet?

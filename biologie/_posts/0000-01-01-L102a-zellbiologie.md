@@ -8,7 +8,7 @@ title: "L102a - Zellbiologie"
 
 ## Leitfragen
 
-- Aus welche Organellen besteht eine Zelle?
+- Was sind Organellen und aus welchen Organellen besteht eine eukaryontische Zelle?
 - Frage
 - Frage
 - Frage

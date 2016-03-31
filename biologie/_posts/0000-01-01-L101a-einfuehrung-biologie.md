@@ -8,8 +8,8 @@ title: "L101a - Einführung in die Biologie"
 
 ## Leitfragen
 - Was ist Biologie und welche Themen sind für die Medizin wichtig?
-- Frage
-- Frage
+- Was ist der Unterschied zwischen Eukaryonten und Prokaryonten?
+- In welche Gruppen kann man mikrobiologische Krankheitserreger einteilen?
 - Frage
 - Frage
 - Frage

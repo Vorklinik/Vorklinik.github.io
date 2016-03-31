@@ -8,7 +8,7 @@ title: "L102a - Zellbiologie"
 
 ## Leitfragen
 
-- Woraus besteht eine Zelle?
+- Aus welche Organellen besteht eine Zelle?
 - Frage
 - Frage
 - Frage

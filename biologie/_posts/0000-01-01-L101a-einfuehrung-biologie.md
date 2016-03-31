@@ -13,5 +13,3 @@ title: "L101a - Einführung in die Biologie"
 - Frage
 - Frage
 - Frage
-- Frage
-- Frage

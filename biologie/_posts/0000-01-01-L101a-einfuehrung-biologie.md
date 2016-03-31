@@ -12,4 +12,3 @@ title: "L101a - Einführung in die Biologie"
 - In welche Gruppen kann man mikrobiologische Krankheitserreger einteilen?
 - Frage
 - Frage
-- Frage

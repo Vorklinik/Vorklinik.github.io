@@ -41,7 +41,7 @@ notes: active
 
 {% unless page.categories contains 'Home' %}
 <div> 
-	{% if page.anki %} <a style="color:lightgrey;text-decoration:none" href="{{page.anki}}">★</a> {% endif %}
+	{% if page.anki %} <a style="float:right;color:lightgrey;text-decoration:none" href="{{page.anki}}">★</a> {% endif %}
 	{% include disqus.html %}
 	{% include statcounter.html %}
 </div>

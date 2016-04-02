@@ -38,11 +38,11 @@ notes: active
                  <a rel="next" class="next"></a>
             {% endif %}
 </div>
+
 {% unless page.categories contains 'Home' %}
 <div> 
+	{% if page.anki %} <a style="color:lightgrey;text-decoration:none" href="{{page.anki}}">★</a> {% endif %}
 	{% include disqus.html %}
 	{% include statcounter.html %}
 </div>
 {% endunless %}
-
-{% if page.anki %} <a style="color:lightgrey;text-decoration:none" href="{{page.anki}}">★</a> {% endif %}

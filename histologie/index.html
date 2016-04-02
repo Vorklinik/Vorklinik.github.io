@@ -1,0 +1,33 @@
+---
+layout: default
+title: Histologie
+---
+	<h1>{{ page.title }}</h1>
+	
+	<h2>Gewebelehre</h2>
+	<ul class="posts">
+	  {% for post in site.categories.gewebelehre reversed %}
+	    <li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+
+	<h2>Histologie des kardiovaskulären Systems</h2>
+	<ul class="posts">
+	  {% for post in site.categories.histologie1 reversed %}
+	    <li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+
+	<h2>Histologie der Lunge und des luftleitenden Systems</h2>
+	<ul class="posts">
+	  {% for post in site.categories.histologie2 reversed %}
+	    <li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+
+	<h2>Histologie des Nervensystems</h2>
+	<ul class="posts">
+	  {% for post in site.categories.histologie3 reversed %}
+	    <li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>

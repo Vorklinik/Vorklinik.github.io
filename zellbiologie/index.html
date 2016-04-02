@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Zellbiologie
----	
-	<h1>{{title}}</h1>
+---
+	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 	  {% for post in site.categories.zellbiologie reversed %}
 	    <li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>

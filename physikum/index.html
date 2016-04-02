@@ -2,10 +2,10 @@
 layout: default
 title: 1. Abschnitt der Ärztlichen Prüfung
 ---
-	<h1>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 	<ul class="posts">
-	  {% for post in site.categories.aep reversed %}
-	    <li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}	  
+	{% for post in site.categories.physikum reversed %}
+		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}	  
 	</ul>
 

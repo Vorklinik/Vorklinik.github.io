@@ -44,3 +44,5 @@ notes: active
 	{% include statcounter.html %}
 </div>
 {% endunless %}
+
+{% if page.anki %} <a style="color:lightgrey;text-decoration:none" href="{{page.anki}}">★</a> {% endif %}

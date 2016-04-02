@@ -11,7 +11,7 @@
          		{% if page.active == "Home" %} <li "><a style="color:#F38630;" href="{{site.baseurl}}/">Home</a></li>
           			{% else %} <li><a href="{{site.baseurl}}/">Home</a></li>
          		{% endif %}
-	    		<li><a href='{{site.baseurl}}/biologie' {% if current[1] == "biologie" or current[1] == "zellbiologie" %} style="color:#F38630;"{% endif %}>Biologie</a></li>
+	    		<li><a href='{{site.baseurl}}/biologie' {% if current[1] == "biologie" or current[1] == "zellbiologie" or current[1] == "genetik" or current[1] == "mikrobiologie" %} style="color:#F38630;"{% endif %}>Biologie</a></li>
 	    		<li><a href='{{site.baseurl}}/' {% if current[1] == "physik" %} style="color:#F38630;"{% endif %}>Physik</a></li>
 	    		<li><a href='{{site.baseurl}}/' {% if current[1] == "chemie" %} style="color:#F38630;"{% endif %}>Chemie</a></li>
 	    		<li><a href='{{site.baseurl}}/' {% if current[1] == "anatomie" %} style="color:#F38630;"{% endif %}>Anatomie</a></li>

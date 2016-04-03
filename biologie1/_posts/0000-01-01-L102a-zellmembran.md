@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "L102a - Die Zellmembran"
+title: "L102a - Zellmembran"
 ---
 <center>
 <iframe src="https://player.vimeo.com/video/160987632" width="900" height="505" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

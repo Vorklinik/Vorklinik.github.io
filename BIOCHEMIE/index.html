@@ -4,14 +4,14 @@ title: Biochemie
 ---
 <h1>{{ page.title }}</h1>
 
-<h2>Biochemie der Aminosäuren, Proteine und Enzyme</h2>
+<h2>Aminosäuren, Proteine und Enzyme</h2>
 <ul class="posts">
 {% for post in site.categories.biochemie1 reversed %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 	
-<h2>Biochemie der Lipide, Lipoproteine und biologischen Membranen</h2>
+<h2>Lipide, Lipoproteine und biologischen Membranen</h2>
 <ul class="posts">
 {% for post in site.categories.biochemie2 reversed %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>

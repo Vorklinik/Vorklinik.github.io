@@ -4,20 +4,6 @@ title: Anatomie
 ---
 <h1>{{ page.title }}</h1>
 	
-<h2>Anatomie von Hals und Kopf</h2>
-	<ul class="posts">
-	  {% for post in site.categories.anatomie3 reversed %}
-	  	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
-
-<h2>Neuroanatomie</h2>
-	<ul class="posts">
-	  {% for post in site.categories.neuroanatomie reversed %}
-	  	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
-	
 <h2>Anatomie des Bewegungs- & Stützapparats (Obere Extremität)</h2>
 	<ul class="posts">
 	{% for post in site.categories.anatomie1a reversed %}
@@ -56,6 +42,20 @@ title: Anatomie
 <h2>Anatomie der inneren Organe (Becken und andere Themengebiete)</h2>
 	<ul class="posts">
 	  {% for post in site.categories.anatomie2c reversed %}
+	  	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+	
+<h2>Anatomie von Hals und Kopf</h2>
+	<ul class="posts">
+	  {% for post in site.categories.anatomie3 reversed %}
+	  	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+
+<h2>Neuroanatomie</h2>
+	<ul class="posts">
+	  {% for post in site.categories.neuroanatomie reversed %}
 	  	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>

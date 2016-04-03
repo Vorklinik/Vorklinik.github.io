@@ -4,16 +4,46 @@ title: Anatomie
 ---
 <h1>{{ page.title }}</h1>
 	
-<h2>Anatomie des Bewegungs- & Stützapparats</h2>
+<h2>Anatomie des Bewegungs- & Stützapparats (Obere Extremität)</h2>
 	<ul class="posts">
-	{% for post in site.categories.anatomie1 reversed %}
+	{% for post in site.categories.anatomie1a reversed %}
+		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+
+	
+<h2>Anatomie des Bewegungs- & Stützapparats (Untere Extremität)</h2>
+	<ul class="posts">
+	{% for post in site.categories.anatomie1b reversed %}
 		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>
 	
-<h2>Anatomie der inneren Organe</h2>
+<h2>Anatomie des Bewegungs- & Stützapparats (Rumf)</h2>
 	<ul class="posts">
-	  {% for post in site.categories.anatomie2 reversed %}
+	{% for post in site.categories.anatomie1c reversed %}
+		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+		
+<h2>Anatomie der inneren Organe (Brust)</h2>
+	<ul class="posts">
+	  {% for post in site.categories.anatomie2a reversed %}
+	  	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+
+		
+<h2>Anatomie der inneren Organe (Bauch)</h2>
+	<ul class="posts">
+	  {% for post in site.categories.anatomie2b reversed %}
+	  	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+		
+<h2>Anatomie der inneren Organe (Becken und andere Themengebiete)</h2>
+	<ul class="posts">
+	  {% for post in site.categories.anatomie2c reversed %}
 	  	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
@@ -25,6 +55,14 @@ title: Anatomie
 	  {% endfor %}
 	</ul>
 
+	
+<h2>Anatomie von Hals und Kopf</h2>
+	<ul class="posts">
+	  {% for post in site.categories.anatomie3 reversed %}
+	  	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+	
 <h2>Neuroanatomie</h2>
 	<ul class="posts">
 	  {% for post in site.categories.neuroanatomie reversed %}

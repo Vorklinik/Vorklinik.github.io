@@ -6,18 +6,11 @@ title: Histologie
 	
 	<h2>Grundlagen der Gewebelehre</h2>
 	<ul class="posts">
-	  {% for post in site.categories.gewebelehre reversed %}
-	    <li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
-
-	<h2>Muskulatur und Stützgewebe</h2>
-	<ul class="posts">
 	  {% for post in site.categories.histologie1 reversed %}
 	    <li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
-	
+
 	<h2>Kardiovaskuläres System</h2>
 	<ul class="posts">
 	  {% for post in site.categories.histologie2 reversed %}

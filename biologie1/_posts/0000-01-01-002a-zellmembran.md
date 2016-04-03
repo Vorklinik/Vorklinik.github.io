@@ -1,5 +1,5 @@
 ---
 layout: post
-title: "Zellmembran"
+title: "Zellmembranen und aktive Fortbewegung"
 ---
 

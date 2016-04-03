@@ -4,7 +4,7 @@ title: Zentrale Prüfungsthemen des Physikums
 ---
 
 ## Biologie
-- Zellverbindungen undZelladhäsionsmoleküle
+- Zellverbindungen und Zelladhäsionsmoleküle
 - 
 
 ## Physik
@@ -18,5 +18,6 @@ title: Zentrale Prüfungsthemen des Physikums
 ## Physiologie
 
 ## Biochemie
+- Glykolyse
 
 ## Psychologie und Soziologie

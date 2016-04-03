@@ -39,6 +39,13 @@ title: Physiologie
 {% endfor %}
 </ul>
 
+<h2>Physiologie der Hormone und des vegetative Nervensystems</h2>
+<ul class="posts">
+{% for post in site.categories.physiologie2 reversed %}
+	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
 <h2>Physiologie der Sinne</h2>
 <ul class="posts">
 {% for post in site.categories.physiologie2 reversed %}

@@ -1,4 +1,4 @@
 ---
 layout: post
-title: "L101a - Einführung in die Zellbiologie und Zellkommunikation"
+title: "L101a - Einführung in die Zellbiologie"
 ---

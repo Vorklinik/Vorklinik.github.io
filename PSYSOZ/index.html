@@ -4,18 +4,37 @@ title: Psychologie und Soziologie
 ---
 <h1>{{ page.title }}</h1>
 
-<h2>Psychologie</h2>
+<h2>Der Patient</h2>
 	<ul class="posts">
 	{% for post in site.categories.psychologie reversed %}
 		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>
 
-
-<h2>Soziologie</h2>
+<h2>Ärztliches Handeln</h2>
 	<ul class="posts">
 	{% for post in site.categories.soziologie reversed %}
 		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>
 
+<h2>Das Gesundheitssystem</h2>
+	<ul class="posts">
+	{% for post in site.categories.soziologie reversed %}
+		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+
+<h2>Grundlagen der Epidemiologie und Methodologie</h2>
+	<ul class="posts">
+	{% for post in site.categories.psychologie reversed %}
+		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+
+<h2>Grundlagen der Psychologie</h2>
+	<ul class="posts">
+	{% for post in site.categories.psychologie reversed %}
+		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>

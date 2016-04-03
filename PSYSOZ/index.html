@@ -3,10 +3,19 @@ layout: default
 title: PsySoz
 ---
 <h1>{{ page.title }}</h1>
+
+<h2>Psychologie</h2>
 	<ul class="posts">
-	{% for post in site.categories.psysoz reversed %}
+	{% for post in site.categories.psychologie reversed %}
 		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	{% endfor %}	  
+	{% endfor %}
 	</ul>
 
+
+<h2>Soziologie</h2>
+	<ul class="posts">
+	{% for post in site.categories.soziologie reversed %}
+		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
 

@@ -1,5 +1,5 @@
 ---
 layout: post
-title: "Einführung in die Gewebelehre"
+title: "Einführung in die Gewebelehre ⚙"
 ---
 

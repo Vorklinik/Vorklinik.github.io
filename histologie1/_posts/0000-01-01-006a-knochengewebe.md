@@ -1,5 +1,5 @@
 ---
 layout: post
-title: "Knochengewebe"
+title: "Knochengewebe ⚙"
 ---
 

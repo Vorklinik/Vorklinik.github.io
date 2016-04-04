@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bindegewebe"
+title: "Bindegewebe ⚙"
 ---
 
 

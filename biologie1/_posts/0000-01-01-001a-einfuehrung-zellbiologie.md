@@ -1,4 +1,4 @@
 ---
 layout: post
-title: "Einführung in die Zellbiologie"
+title: "Einführung in die Zellbiologie ⚙"
 ---

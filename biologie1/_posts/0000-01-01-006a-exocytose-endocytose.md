@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exocytose und Endocytose"
+title: "Exocytose und Endocytose ⚙"
 ---
 
 

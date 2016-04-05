@@ -1,4 +1,4 @@
 ---
 layout: post
-title: Gefäße und Nerven des Rumpfes ⚙ ⚙
+title: Gefäße und Nerven des Rumpfes ⚙ 
 ---

@@ -1,5 +1,5 @@
 ---
 layout: post
-title: "Brustsitus ⚙"
+title: "Brustsitus und Mediastinum ⚙"
 ---
 

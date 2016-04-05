@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gefäße und Nerven der des Beckens ⚙"
+title: "Gefäße und Nerven des Beckens ⚙"
 ---
 
 

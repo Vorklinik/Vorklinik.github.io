@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Diencephalon ⚙"
+---
+
+
+
+

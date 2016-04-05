@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wichtige Gefäße und Nerven des Brustsitus ⚙"
+title: "Gefäße und Nerven des Brustsitus ⚙"
 ---
 
 

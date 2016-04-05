@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wichtige Nerven und Gefäße der oberen Extremität ⚙"
+title: "Nerven und Gefäße der oberen Extremität ⚙"
 ---
 
 

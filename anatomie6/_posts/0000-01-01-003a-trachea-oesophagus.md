@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trachea und Oesophagus ⚙"
+title: Trachea und Oesophagus ⚙
 ---
 
 

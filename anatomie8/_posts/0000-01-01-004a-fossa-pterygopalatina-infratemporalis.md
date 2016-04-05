@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fossa pterygopalatina und infratempralis ⚙"
+title: "Fossa pterygopalatina und infratemporalis ⚙"
 ---
 
 

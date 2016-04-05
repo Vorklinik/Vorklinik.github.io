@@ -9,6 +9,13 @@ title: Pathologie
 {% endfor %}
 </ul>
 	
+<h2>Pathologien des Respirationstrakts</h2>
+<ul class="posts">
+{% for post in site.categories.pathologie1 reversed %}
+	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
 <h2>Pathologien des Nervensystems</h2>
 <ul class="posts">
 {% for post in site.categories.pathologie1 reversed %}
@@ -22,21 +29,6 @@ title: Pathologie
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
-	
-<h2>Pathologien des Bewegungsapparats</h2>
-<ul class="posts">
-{% for post in site.categories.pathologie1 reversed %}
-	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
-	
-<h2>Pathologien des Respirationstrakts</h2>
-<ul class="posts">
-{% for post in site.categories.pathologie1 reversed %}
-	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
-	
 		
 <h2>Pathologien des endokrinen Systems</h2>
 <ul class="posts">
@@ -45,10 +37,19 @@ title: Pathologie
 {% endfor %}
 </ul>
 
-
 <h2>Pathologien des Urogenitalsystem</h2>
 <ul class="posts">
 {% for post in site.categories.pathologie1 reversed %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+	
+<h2>Pathologien des Bewegungsapparats</h2>
+<ul class="posts">
+{% for post in site.categories.pathologie1 reversed %}
+	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+

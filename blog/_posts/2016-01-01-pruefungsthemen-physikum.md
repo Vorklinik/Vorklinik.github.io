@@ -4,6 +4,7 @@ title: Zentrale Prüfungsthemen des Physikums
 ---
 
 ## Biologie
+
 - Zellverbindungen und Zelladhäsionsmoleküle
 - 
 
@@ -12,6 +13,9 @@ title: Zentrale Prüfungsthemen des Physikums
 ## Chemie
 
 ## Anatomie
+
+- Schlundbögen
+- 
 
 ## Histologie
 

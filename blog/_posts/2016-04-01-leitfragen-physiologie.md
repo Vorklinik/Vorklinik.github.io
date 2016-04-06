@@ -38,6 +38,6 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Wie wird Kohlenstoffdioxid im Blut transportiert?
 - Wie sieht die Sauerstoffbindungskurve von Hämoglobin aus? Wie kann sie an die lokalen Bedürfnisse im Gewebe adaptiert werden? Was ist Methämoglobin?
 - Was ist 2,3-BPG? Wie wirkt es auf Hämoglobin?
-- Was ist der Unterschied zwischen HB-F und HB-A1?
+- Was ist der Unterschied zwischen HB-F und HB-A1? Warum besteht dieser Unterschied?
 - Welche Wirkung hat Stickstoffmonoxid auf den Sauerstofftransport? Wie kann dies therapiert werden?
 - 

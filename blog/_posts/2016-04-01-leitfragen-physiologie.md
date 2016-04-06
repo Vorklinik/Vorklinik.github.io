@@ -60,5 +60,7 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - In welchen Phasen einer (intensiven) Atmung ist der Strömungswiderstand in den Gefäßen der Lunge minimal? Wann ist er maximal? Warum? Welche Rolle spielen dabei intralveoläre und extraalveolare Gefäße der Lunge?
 - Welche Bedeutung hat die FRC für die Perfusion der Lungengefäße?
 - Nach welchem Mechanismus kontrahiert glatte Muskulatur?
-- Wie funktioniert der Euler-Liljestrand-Mechanismus? Welche Messenger sind hier involviert?
+- Wie verhalten sich die Lungengefäße bei einer Hypoxie in großer Höhe? Welchen Effekt hat dies langfristig auf das linke Herz?
+- Wie funktioniert der Euler-Liljestrand-Mechanismus? Welche Messenger und Kanäle sind hier involviert?
+- Was bewirkt die Kreislaufumstellung nach der Geburt?
 - 

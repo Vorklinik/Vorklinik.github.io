@@ -14,3 +14,4 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Was sind die Definitionsformeln für Compliance und Elastizität? Wie ist Compliance genau definiert?
 - Wie hoch ist der pO<sub>2</sub> und der pCO<sub>2</sub> in: Außenluft, Alveolarluft, venöses Blut, arterielles Blut und gemischt-arterielles Blut.
 - Wie wird die Atmung reguliert? Wo befinden sich zentrale Zentren im Gehirn und welche Chemorezeptoren beeinflussen die Atmung? Welche Hirnnerven führen die Informationen zum ZNS?
+- Können Protonen, Bicarbonat und CO<sub>2</sub> die Blut-Hirn-Schranke überwinden? Welche Rolle spielt hier der Bicarbonat-Puffer für zentrale Atemreize?

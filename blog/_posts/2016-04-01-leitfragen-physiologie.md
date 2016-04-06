@@ -32,7 +32,6 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Was ist das Leitsymptom einer Hyperventilation? Wie entsteht dieses?
 - Was ist Surfactant? Woraus besteht er und wie genau erfüllt er seine Funktion?
 - Welche Lungenzellen produzieren Surfactant?
-- Wie funktioniert der Euler-Liljestrand-Mechanismus? Welche Messenger sind hier involviert?
 - Wie wird Sauerstoff im Blut transportiert?
 - Was ist eine Anämie? Wie wirkt sie sich auf der Sauerstoffpartialdruck aus?
 - Wie wird Kohlenstoffdioxid im Blut transportiert?
@@ -58,4 +57,8 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Wie verändert sich der Strömungswiderstand der Lunge unter Belastung? Warum ist dies wichtig?
 - Wie verändert sich der Strömugnswiderstand im arterielln System unter Belastung?
 - Definitionsformel: Gesetz von Hagen-Poiseuille und Ohm'sches Gesetz.
+- In welchen Phasen einer (intensiven) Atmung ist der Strömungswiderstand in den Gefäßen der Lunge minimal? Wann ist er maximal? Warum? Welche Rolle spielen dabei intralveoläre und extraalveolare Gefäße der Lunge?
+- Welche Bedeutung hat die FRC für die Perfusion der Lungengefäße?
+- Nach welchem Mechanismus kontrahiert glatte Muskulatur?
+- Wie funktioniert der Euler-Liljestrand-Mechanismus? Welche Messenger sind hier involviert?
 - 

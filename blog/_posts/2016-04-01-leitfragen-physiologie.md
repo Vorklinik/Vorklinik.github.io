@@ -3,6 +3,11 @@ layout: post
 title: Leitfragen der Physiologie zum Respirationssystem
 ---
 
+- Welche Muskeln sind an der Einatmung bzw. Ausatmung beteiligt?
+- Was ist die Funktion des Pleuraspalts? Was passiert wenn der intrapleurale Druck nicht erhalten werden kann?
+- Was bezeichnmet man als transpleuralen Druck? Was ist der transthorakale Druck? Welche Rolle spielen diese diese für die Ruhestellung nach einer normalen Exspiration.
+- Wie groß ist eine isolierte Lunge?
+- Was ist das Ruhevolumen des isolierten Thorax?
 - Was bezeichnet man als statische Lungenvolumina? Was sind ihre physiologischen Durchschnittswerte?
 - Was bezeichnet man als Vitalkapazität? Wie groß ist das Lungenvolumen insgesamt?
 - Was bezeichnet man als alveoläre Ventilation? In welchem Bereich bewegt sie sich physiologisch?
@@ -20,6 +25,8 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Was zeichnet restriktive Lungenerkrankungen aus? Welche Beispiele kennen Sie?
 - Was zeichnet obstruktive Lungenerkrankungen aus? Welche Beispiele kennen Sie?
 - Was ist eine Fluss–Volumen–Kurve? Wie sieht diese physiologisch aus und wie verändert sie sich für restriktive bzw. obstruktive Lungenerkrankungen?
+- Welche Lungenerkrankungen führen zu einer Vergrößerung des Lungenvolumens? Welche Folgen hat dies auf andere Messwerte und Volumina?
+- Welche Lungenerkrankungen führen zu einer Verkleinerung des Lungenvolumens? Welche Folgen hat dies auf andere Messwerte und Volumina?
 - Was bezeichnet man als Stickstoffauswaschmethode? Wie funktioniert eine Bodyplethysmographie? Welche Lungenvolumina können sich hiermit (wie?) bestimmen lassen?
 - Was bezeichnet man als Atelektase?
 - Was ist das Leitsymptom einer Hyperventilation? Wie entsteht dieses?

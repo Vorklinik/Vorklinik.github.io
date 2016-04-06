@@ -40,4 +40,15 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Was ist 2,3-BPG? Wie wirkt es auf Hämoglobin?
 - Was ist der Unterschied zwischen HB-F und HB-A1? Warum besteht dieser Unterschied?
 - Welche Wirkung hat Stickstoffmonoxid auf den Sauerstofftransport? Wie kann dies therapiert werden?
+- Wie hoch ist der systolische/diastolische Blutdruck in den Lungenarterien und Lungenvenen? Wie hoch ist er im linken und rechten Atrium bzw. Ventrikel?
+- Wie hoch ist der durchschnittliche Blutdruck im arteriellen bzw. venösen System?
+- Ist der Gefäßwiderstand (Resistance) in der Lunge höher oder niedriger als im arteriellen System?
+- Warum muss der Kreislauf in ein Hochdrucksystem und eine Niederdrucksystem aufgeteilt werden?
+- Warum sind sekundäre Metastasen im Lungegewebe häufig anzutreffen?
+- Welche fünf Funktionen erfüllt der Pulmonalkreislauf?
+- Was sind die metabloischen Funktionen des Pulmonarkreislaufs?
+- Was passiert bei einer Rechtsherzinsuffizienz?
+- Was passiert mit Bradykinin im Lungenkreislauf?
+- Was ist ACE? Wo wirkt es genau und welche Funktion erfüllt es?
+- Was bezeichnet man als Filterfunktion des Lungenkreislaufs?
 - 

@@ -63,4 +63,10 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Wie verhalten sich die Lungengefäße bei einer Hypoxie in großer Höhe? Welchen Effekt hat dies langfristig auf das linke Herz?
 - Wie funktioniert der Euler-Liljestrand-Mechanismus? Welche Messenger und Kanäle sind hier involviert?
 - Was bewirkt die Kreislaufumstellung nach der Geburt?
-- 
+- Wie unterscheiden sich die drei Zonen (Blutfluss) der Lunge? Wie entwicklent sich der Gasaustausch bei einer zu hoch eingestellten maschinellen Beatmung mit dem Gasaustausch? Welche Wirkung auf das Herz kann man dann erwarten?
+- Wie hoch ist der kolloidosmotische Druck in der Blutbahn (Plasmaproteine)? Warum ist dies für die Lunge relevant?
+- Welche vier Kräfte bedingen einen (unphysiologischen) Flüssigkeitsaustausch zwischen Alveolen und Blutbahn der Lunge?
+- Wie hoch ist der physiologische Filtrationsdruck in der Lunge?
+- Was bezeichnet man als Nephrotisches Syndrom?
+- Wie kann Flüssigkeit die physiologisch in die Lunge gelangt die Lunge wider verlassen? Ab welchem hydrostatischen Druck (z.B. Mitralstenose) in der Blutbahn entsteht ein Lungeödem?
+- Was passiert beim Ertrinken im Süßwasser? Wie unterscheidet sich dieser Vorgang vom Ertrinken im Salzwasser?

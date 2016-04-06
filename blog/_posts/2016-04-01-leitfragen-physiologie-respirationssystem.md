@@ -4,6 +4,9 @@ title: Leitfragen der Physiologie zum Respirationssystem
 ---
 
 - Welche Muskeln sind an der Einatmung bzw. Ausatmung beteiligt?
+- Welche Chemosensoren sind in der Regualtion der Atmung involviert?
+- Wie unterscheidet sich die bewusste und unbewusste Atmung?
+- Was treibt die Ausatmung in Ruhe an?
 - Was ist die Funktion des Pleuraspalts? Was passiert wenn der intrapleurale Druck nicht erhalten werden kann?
 - Was bezeichnmet man als transpleuralen Druck? Was ist der transthorakale Druck? Welche Rolle spielen diese diese für die Ruhestellung nach einer normalen Exspiration.
 - Wie groß ist eine isolierte Lunge? Ist die Compliance oder Elastizität des Gewebes maximal/minimal?
@@ -84,4 +87,10 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Was bezeichnet man als Bohr-Effekt?
 - Welche Funktion erfüllt der Anionen-Austauscher 1 (AE1)?
 - Was bezeichnet man als Haldane-Effekt?
-- 
+- Wie ist Hypoxie definiert?
+- Wie kann Hypoxie entstehen? (7 Möglichkeiten)
+- Welche Folgen hat ein niedriger Luftdruck auf den Organismus? (Atmung, pH des Blutes)
+- Wie kann eine Hypoventilation entstehen?
+- Warum sollte man einem Patienten mit chronischer Hypoventilation und Hyperkapnie kein Sauerstoff geben?
+- Was bezeichnet man als Eisenmenger-Syndrom bzw. Eisenmenger-Reaktion?
+- Wie wirkt sich eine Cyanidvergiftung auf die Atmung aus?

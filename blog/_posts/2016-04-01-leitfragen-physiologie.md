@@ -33,3 +33,11 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Was ist Surfactant? Woraus besteht er und wie genau erfüllt er seine Funktion?
 - Welche Lungenzellen produzieren Surfactant?
 - Wie funktioniert der Euler-Liljestrand-Mechanismus? Welche Messenger sind hier involviert?
+- Wie wird Sauerstoff im Blut transportiert?
+- Was ist eine Anämie? Wie wirkt sie sich auf der Sauerstoffpartialdruck aus?
+- Wie wird Kohlenstoffdioxid im Blut transportiert?
+- Wie sieht die Sauerstoffbindungskurve von Hämoglobin aus? Wie kann sie an die lokalen Bedürfnisse im Gewebe adaptiert werden? Was ist Methämoglobin?
+- Was ist 2,3-BPG? Wie wirkt es auf Hämoglobin?
+- Was ist der Unterschied zwischen HB-F und HB-A1?
+- Welche Wirkung hat Stickstoffmonoxid auf den Sauerstofftransport? Wie kann dies therapiert werden?
+- 

@@ -51,4 +51,7 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Was passiert mit Bradykinin im Lungenkreislauf?
 - Was ist ACE? Wo wirkt es genau und welche Funktion erfüllt es?
 - Was bezeichnet man als Filterfunktion des Lungenkreislaufs?
+- Welche zwei physiologischen Shunts haben eine Abnahmen des Sauerstoffpartialdrucks im linken Herzen zur Folge?
+- Über welche zwei Shunts wird der Lungenkreislauf in Feten physiologisch umgangen? Welche Rolle spielt hier der Euler-Liljestrand-Mechanismus?
+- Wo zweigen die Vasa privata der Lunge im Arterialkreislauf ab?
 - 

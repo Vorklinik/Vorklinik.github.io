@@ -7,11 +7,11 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Was ist die Funktion des Pleuraspalts? Was passiert wenn der intrapleurale Druck nicht erhalten werden kann?
 - Was bezeichnmet man als transpleuralen Druck? Was ist der transthorakale Druck? Welche Rolle spielen diese diese für die Ruhestellung nach einer normalen Exspiration.
 - Wie groß ist eine isolierte Lunge?
-- Was ist das Ruhevolumen des isolierten Thorax?
+- Wie groß ist das Ruhevolumen des isolierten Thorax?
+- Was bezeichnet man als Totraumventilation?
 - Was bezeichnet man als statische Lungenvolumina? Was sind ihre physiologischen Durchschnittswerte?
 - Was bezeichnet man als Vitalkapazität? Wie groß ist das Lungenvolumen insgesamt?
 - Was bezeichnet man als alveoläre Ventilation? In welchem Bereich bewegt sie sich physiologisch?
-- Was ist Totraumventilation?
 - Wie groß ist das im Atemzugvolumen enthaltene Totraumvolumen?
 - Wie errechnet sich der Ventilations-Perfusions-Quotient? Welche Normwerte fließen hier ein?
 - Wie verhält sich der lokale VPQ bei einer Lungenembolie (Lappenarterien) und bei einer Obstruktion in einem Lappenbronchus?

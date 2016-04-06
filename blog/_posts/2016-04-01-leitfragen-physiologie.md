@@ -17,5 +17,12 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Wie wird die Atmung reguliert? Wo befinden sich zentrale Zentren im Gehirn und welche Chemorezeptoren beeinflussen die Atmung? Welche Hirnnerven führen die Informationen zum ZNS?
 - Können Protonen, Bicarbonat und CO<sub>2</sub> die Blut-Hirn-Schranke überwinden? Welche Rolle spielt hier der Bicarbonat-Puffer für zentrale Atemreize?
 - Wie kann man den FEV<sub>1</sub> bestimmen? Wofür ist er klinisch relevant?
+- Was zeichnet restriktive Lungenerkrankungen aus? Welche Beispiele kennen Sie?
+- Was zeichnet obstruktive Lungenerkrankungen aus? Welche Beispiele kennen Sie?
+- Was ist eine Fluss–Volumen–Kurve? Wie sieht diese physiologisch aus und wie verändert sie sich für restriktive bzw. obstruktive Lungenerkrankungen?
 - Was bezeichnet man als Stickstoffauswaschmethode? Wie funktioniert eine Bodyplethysmographie? Welche Lungenvolumina können sich hiermit (wie?) bestimmen lassen?
+- Was bezeichnet man als Atelektase?
 - Was ist das Leitsymptom einer Hyperventilation? Wie entsteht dieses?
+- Was ist Surfactant? Woraus besteht er und wie genau erfüllt er seine Funktion?
+- Welche Lungenzellen produzieren Surfactant?
+- 

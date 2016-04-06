@@ -12,5 +12,5 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Wie hoch ist der VPQ in der Lungenbasis und in der Lungenspitze ohne physiologische Kompensation? Durch welche zwei Mechanismen kann der Gasaustausch optimiert werden?
 - Was ist die Bedeutung der FRC?
 - Was sind die Definitionsformeln für Compliance und Elastizität? Wie ist Compliance genau definiert?
-- Wie hoch ist der pO2 und der pCO2 in: Außenluft, Alveolarluft, venöses Blut, arterielles Blut und gemischt-arterielles Blut.
+- Wie hoch ist der pO_{2} und der pCO_{2} in: Außenluft, Alveolarluft, venöses Blut, arterielles Blut und gemischt-arterielles Blut.
 - Wie wird die Atmung reguliert? Wo befinden sich zentrale Zentren im Gehirn und welche Chemorezeptoren beeinflussen die Atmung? Welche Hirnnerven führen die Informationen zum ZNS?

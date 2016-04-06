@@ -83,4 +83,5 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Was bezeichnet man als Carbamino-Hämoglobin? Was ist ihre Funktion?
 - Was bezeichnet man als Bohr-Effekt?
 - Welche Funktion erfüllt der Anionen-Austauscher 1 (AE1)?
+- Was bezeichnet man als Haldane-Effekt?
 - 

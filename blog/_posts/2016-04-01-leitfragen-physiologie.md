@@ -32,4 +32,4 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Was ist das Leitsymptom einer Hyperventilation? Wie entsteht dieses?
 - Was ist Surfactant? Woraus besteht er und wie genau erfüllt er seine Funktion?
 - Welche Lungenzellen produzieren Surfactant?
-- 
+- Wie funktioniert der Euler-Liljestrand-Mechanismus? Welche Messenger sind hier involviert?

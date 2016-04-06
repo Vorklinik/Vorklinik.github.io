@@ -54,4 +54,8 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Welche zwei physiologischen Shunts haben eine Abnahmen des Sauerstoffpartialdrucks im linken Herzen zur Folge?
 - Über welche zwei Shunts wird der Lungenkreislauf in Feten physiologisch umgangen? Welche Rolle spielt hier der Euler-Liljestrand-Mechanismus?
 - Wo zweigen die Vasa privata der Lunge im Arterialkreislauf ab?
+- Wie kann man den Strömungswiderstand in Lungenkapillaren berechnen? Ist der Strömungswiderstand im arteriellen System höher oder niedriger?
+- Wie verändert sich der Strömungswiderstand der Lunge unter Belastung? Warum ist dies wichtig?
+- Wie verändert sich der Strömugnswiderstand im arterielln System unter Belastung?
+- Definitionsformel: Gesetz von Hagen-Poiseuille und Ohm'sches Gesetz.
 - 

@@ -72,3 +72,15 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Was passiert beim Ertrinken im Süßwasser? Welche Rolle spielt kalim dabei? Wie unterscheidet sich dieser Vorgang vom Ertrinken im Salzwasser?
 - Warum ist der intrapleurale Druck negativ?
 - Was bezeichnet man als Pleuraerguss? Wie kann er entstehen und wo sammelt sich die Flüssigkeit in der Lunge?
+- Wie transportiert das Blut Kohlenstoffdioxid?
+- Wieviel Prozent des Kohlenstoffs wird frei transportiert?
+- Was sind die 4 Hauptfunktionen von Hämoglobin? Welche Moleküle werden von Hb im Blut gebunden/transportiert?
+- Was kann man über die relative Löslichkeit der Atemgase aussagen?
+- Wie wird Kohlenstoffdioxid in Erythrozyten gebunden?
+- Wie werden Protonen in Erythrozyten gebunden?
+- Was ist die Funktion der Carboanhydrase? Welche Reaktion wird katalysiert? Funktioniert das Enzym in beide Richtungen?
+- Wie wird Bicarbonat aus Erythrozyten entsorgt?
+- Was bezeichnet man als Carbamino-Hämoglobin? Was ist ihre Funktion?
+- Was bezeichnet man als Bohr-Effekt?
+- Welche Funktion erfüllt der Anionen-Austauscher 1 (AE1)?
+- 

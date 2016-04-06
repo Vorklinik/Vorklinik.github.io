@@ -69,4 +69,6 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Wie hoch ist der physiologische Filtrationsdruck in der Lunge?
 - Was bezeichnet man als Nephrotisches Syndrom?
 - Wie kann Flüssigkeit die physiologisch in die Lunge gelangt die Lunge wider verlassen? Ab welchem hydrostatischen Druck (z.B. Mitralstenose) in der Blutbahn entsteht ein Lungeödem?
-- Was passiert beim Ertrinken im Süßwasser? Wie unterscheidet sich dieser Vorgang vom Ertrinken im Salzwasser?
+- Was passiert beim Ertrinken im Süßwasser? Welche Rolle spielt kalim dabei? Wie unterscheidet sich dieser Vorgang vom Ertrinken im Salzwasser?
+- Warum ist der intrapleurale Druck negativ?
+- Was bezeichnet man als Pleuraerguss? Wie kann er entstehen und wo sammelt sich die Flüssigkeit in der Lunge?

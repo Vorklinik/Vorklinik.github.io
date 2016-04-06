@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Leitfragen der Physiologie zum respiratorischen System
+title: Leitfragen der Physiologie zum Respirationssystem
 ---
 
 - Was bezeichnet man als statische Lungenvolumina? Was sind ihre physiologischen Durchschnittswerte?

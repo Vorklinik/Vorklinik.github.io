@@ -6,7 +6,7 @@ title: Leitfragen der Physiologie zum Respirationssystem
 - Welche Muskeln sind an der Einatmung bzw. Ausatmung beteiligt?
 - Was ist die Funktion des Pleuraspalts? Was passiert wenn der intrapleurale Druck nicht erhalten werden kann?
 - Was bezeichnmet man als transpleuralen Druck? Was ist der transthorakale Druck? Welche Rolle spielen diese diese für die Ruhestellung nach einer normalen Exspiration.
-- Wie groß ist eine isolierte Lunge?
+- Wie groß ist eine isolierte Lunge? Ist die Compliance oder Elastizität des Gewebes maximal/minimal?
 - Wie groß ist das Ruhevolumen des isolierten Thorax?
 - Was bezeichnet man als Totraumventilation?
 - Was bezeichnet man als statische Lungenvolumina? Was sind ihre physiologischen Durchschnittswerte?

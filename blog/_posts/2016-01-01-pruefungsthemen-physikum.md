@@ -20,7 +20,7 @@ title: Zentrale Prüfungsthemen des Physikums
 ## Histologie
 
 ## Physiologie
-- Säure-Basen-Haushalt, seine Störungen, Kompensationsmechanismen und Blutparmeter
+- Säure-Basen-Haushalt, Kompensationsmechanismen, Störungen und Blutparmeter
 
 ## Biochemie
 - Glykolyse

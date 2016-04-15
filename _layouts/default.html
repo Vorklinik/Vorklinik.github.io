@@ -8,15 +8,13 @@
 		<nav>
     		<ul class="flex-container">
 			{% assign current = page.url | downcase | split: '/' %}
-	    		<li><a href='{{site.baseurl}}/biologie' {% if current[1] contains "biologie" %} style="color:#F38630;"{% endif %}>Biologie</a></li>
-	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "physik" %} style="color:#F38630;"{% endif %}>Physik</a></li>
-	    		<li><a href='{{site.baseurl}}/' {% if current[1] == "chemie" or current[1] == "chemie1" or current[1] == "chemie2" %} style="color:#F38630;"{% endif %}>Chemie</a></li>
 	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "anatomie" %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
-	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "histologie" %} style="color:#F38630;"{% endif %}>Histologie</a></li>
 	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
 	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
+	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "histologie" %} style="color:#F38630;"{% endif %}>Histologie</a></li>
 	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "psysoz" %} style="color:#F38630;"{% endif %}>Psy/Soz</a></li>
-	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "physikum" %} style="color:#F38630;"{% endif %}>Physikum</a></li>
+	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "pharmakologie" %} style="color:#F38630;"{% endif %}>Psy/Soz</a></li>
+	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "pathologie" %} style="color:#F38630;"{% endif %}>Psy/Soz</a></li>
 	     	</ul>	
 		</nav>
 		<div class="container" style="text-align: justify">

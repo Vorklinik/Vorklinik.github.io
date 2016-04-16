@@ -5,19 +5,8 @@
 		<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css">
 	</head>
 	<body>
-		<nav>
-    		<ul class="flex-container">
-			{% assign current = page.url | downcase | split: '/' %}
-			<ul id="nav">
-			<li><a href="#">Anatomie</a>
- 				<ul>
-	 			<li><a href="#">Embryologie</a></li>
- 				<li><a href="#">Obere Extremität</a></li>
- 				<li><a href="#">Rumpf</a></li>
- 				</ul>
-			</li>
-	     	</ul>	
-		</nav>
+		{% include navmenu.html %}
+		
 		<div class="container" style="text-align: justify">
 			{{ content }}
 		</div>

@@ -117,7 +117,7 @@ ul#nav .current a, ul#nav li:hover > a  {
   color: #fff;
   text-decoration: none;
   text-shadow: 1px 1px 1px #330000;
-  background: #bb0000;
+  background: #fffff8;
   -moz-border-radius-topright: 10px;
   -webkit-border-top-right-radius: 10px;
   -moz-border-radius-topleft: 10px;
@@ -137,7 +137,7 @@ ul#nav li:hover > ul {
   height: 45px;
   position: absolute;
   margin: 40px 0 0 0;
-  background: #aa0000 url(../img/menu-child.png) repeat-x;  
+  background: #fffff8;  
   -moz-border-radius-bottomright: 10px;
   -webkit-border-bottom-right-radius: 10px;
   -moz-border-radius-bottomleft: 10px;

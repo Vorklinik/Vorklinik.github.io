@@ -74,18 +74,18 @@ ul.posts li {
 
 // css
 #menu {
-  width: 960px;
+  width: 875px;
   height: 40px;
   clear: both;
 }
 
 ul#nav {
   float: left;
-  width: 960px;
+  width: 875px;
   margin: 0;
   padding: 0;
   list-style: none;
-  background: #dc0000 url(../img/menu-parent.png) repeat-x;
+  background: #fffff8;
   -moz-border-radius-topright: 10px;
   -webkit-border-top-right-radius: 10px;
   -moz-border-radius-topleft: 10px;
@@ -100,12 +100,12 @@ ul#nav li a {
   float: left;
   font: bold 1.1em arial,verdana,tahoma,sans-serif;
   line-height: 40px;
-  color: #fff;
+  color: #4078C0;
   text-decoration: none;
   text-shadow: 1px 1px 1px #880000;
   margin: 0;
   padding: 0 30px;
-  background: #dc0000 url(../img/menu-parent.png) repeat-x;
+  background: #fffff8;
   -moz-border-radius-topright: 10px;
   -webkit-border-top-right-radius: 10px;
   -moz-border-radius-topleft: 10px;
@@ -133,7 +133,7 @@ ul#nav  ul {
 ul#nav li:hover > ul {
   position: absolute;
   display: block;
-  width: 920px;
+  width: 835px;
   height: 45px;
   position: absolute;
   margin: 40px 0 0 0;

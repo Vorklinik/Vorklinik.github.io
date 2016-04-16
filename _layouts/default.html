@@ -8,6 +8,14 @@
 		<nav>
     		<ul class="flex-container">
 			{% assign current = page.url | downcase | split: '/' %}
+			<ul id="nav">
+<li><a href="#">Menu 1</a>
+ <ul>
+ <li><a href="#">Menu 1 Submenu item 1</a></li>
+ <li><a href="#">Menu 1 Submenu item 2</a></li>
+ <li><a href="#">Menu 1 Submenu item 3</a></li>
+ </ul>
+</li>
 	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "anatomie" %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
 	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
 	    		<li><a href='{{site.baseurl}}/' {% if current[1] contains "physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>

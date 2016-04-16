@@ -1,4 +1,4 @@
-<div class="PageNavigation">
+<nav id="nav" class="popup_menu css-menu horizontal">
             {% if page.categories %}
               {% assign category = page.categories[0] %}
               {% assign posts = site.categories[category] %}
@@ -27,4 +27,4 @@
                  {% else if %}
                  <a rel="next" class="next"></a>
             {% endif %}
-</div>
+</nav>

@@ -11,11 +11,10 @@
    <li><a href='{{site.baseurl}}/' {% if current[1] contains "pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
    <li><a href='{{site.baseurl}}/' {% if current[1] contains "pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
 </ul>	
-
-<ul class="flex-container"><font size="1em">
+<font size="1em">
+<ul class="flex-container">
          {% if current[1] contains "anatomie" %} <ul><a href='{{site.baseurl}}/anatomie/embryologie' style="color:#F38630;">Embryologie</a></ul>{% endif %}
          {% if current[1] contains "anatomie" %} <ul><a href='{{site.baseurl}}/';">Obere Extremität</a></ul>{% endif %}
-         </font>
 </ul>	
-
+</font>
 </nav>

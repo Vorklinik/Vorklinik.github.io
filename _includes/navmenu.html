@@ -1,15 +1,18 @@
-{% assign base_url = page.url %}
-{% if rm.size > 0 %}
-{% assign base_url = page.url | replace: rm %}
-{% endif %}
+{% assign navurl = page.url | remove: 'index.html' %}
 
 <ul>
-{% for page in site.pages %}
-  {% if page.title %}
-    {% if page.url contains '/page' %}
-    {% else %}
-      {{ page.title }}
+{% for item in include.nav %}
+    <li>
+        <a href="{{ item.url }}">
+            {% if item.url == navurl %}
+                <b>{{ item.text }}</b>
+            {% else %}
+                {{ item.text }}
+            {% endif %}
+        </a>
+    </li>
+    {% if item.subitems and navurl contains item.url %}
+        {% include nav.html nav=item.subitems %}
     {% endif %}
-  {% endif %}
 {% endfor %}
 </ul>

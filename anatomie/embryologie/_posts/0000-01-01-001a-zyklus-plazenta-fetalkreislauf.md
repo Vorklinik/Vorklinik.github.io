@@ -1,4 +1,4 @@
 ---
 layout: post
-title: "Weiblicher Zyklus, Plazenta und Fetalkreislauf ⚙"
+title: "Weiblicher Zyklus, Plazenta und Fetalkreislauf"
 ---

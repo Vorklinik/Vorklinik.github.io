@@ -2,20 +2,10 @@
 layout: default
 title: Embryologie
 ---
-<nav>
-<ul class="flex-container"; style="font-size:60%">
-         <ul><a href='{{site.baseurl}}/anatomie/embryologie'; style="color:#F38630;">Embryologie</a></ul>
-         <ul><a href='{{site.baseurl}}/anatomie/neuroanatomie'; ">Neuroanatomie</a></ul>
-         <ul><a href='{{site.baseurl}}/';">Kopf und Hals</a></ul>
-         <ul><a href='{{site.baseurl}}/';">Rumpf und innere Organe</a></ul>
-         <ul><a href='{{site.baseurl}}/';">Obere Extremität</a></ul>
-         <ul><a href='{{site.baseurl}}/';">Untere Extremität</a></ul>
-</ul>
-</nav>
 
 <h1>Embryologie</h1>
 	<ul class="posts">
-	{% for post in site.categories.anatomie1 reversed %}
+	{% for post in site.categories.embryologie reversed %}
 		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>

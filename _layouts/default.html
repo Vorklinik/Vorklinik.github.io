@@ -5,16 +5,14 @@
 		<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css">
 	</head>
 	<body>
-		{% include navmenu.html %}
-		<hr>
-		<div class="container" style="text-align: justify;margin-top:-10px;">
-			{{ content }}
-		</div>
-
-		<footer>
+	{% include navmenu.html %}
+	<div class="container" style="text-align: justify;margin-top:-10px;">
+		{{ content }}
+	</div>
+	<footer>
         <ul style="margin-top: -4px;">
-         <li><a href='{{site.baseurl}}/Impressum' {% if current[1] == "impressum" %} style="color:#F38630;"{% endif %}>Impressum</a></li>
+        	<li><a href='{{site.baseurl}}/Impressum' {% if current[1] == "impressum" %} style="color:#F38630;"{% endif %}>Impressum</a></li>
         </ul>
-		</footer>
+	</footer>
 	</body>
 </html>

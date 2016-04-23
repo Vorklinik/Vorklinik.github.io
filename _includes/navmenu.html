@@ -12,6 +12,7 @@
 </ul>	
 
 <ul class="flex-container"; style="font-size:60%">
+   
 {% if current[1] contains "anatomie" %}
          <ul><a href='{{site.baseurl}}/anatomie/embryologie'; {% if current[2] contains "embryologie" %}style="color:#F38630;{% endif %}">Embryologie</a></ul>{% endif %}
          <ul><a href='{{site.baseurl}}/anatomie/neuroanatomie'; {% if current[2] contains "neuroanatomie" %}style="color:#F38630;{% endif %}">Neuroanatomie</a></ul>{% endif %}
@@ -20,6 +21,7 @@
          <ul><a href='{{site.baseurl}}/';">Obere Extremität</a></ul>
          <ul><a href='{{site.baseurl}}/';">Untere Extremität</a></ul>
 {% endif %}
+
 {% if current[1] contains "biochemie" %}
          <ul><a href='{{site.baseurl}}/biochemie/Proteine'; {% if current[2] contains "proteine" %}style="color:#F38630;{% endif %}">Proteine</a></ul>{% endif %}
          <ul><a href='{{site.baseurl}}/biochemie/Lipide'; {% if current[2] contains "lipide" %}style="color:#F38630;{% endif %}">Lipide</a></ul>{% endif %}
@@ -28,8 +30,6 @@
          <ul><a href='{{site.baseurl}}/biochemie/';">Molekularbiologie</a></ul>
          <ul><a href='{{site.baseurl}}/biochemie/';">Molekularbiologie/a></ul>
 {% endif %}
-
-
 
 </ul>
 </nav>

@@ -2,10 +2,9 @@
 layout: default
 title: Biochemie
 ---
-
 <h1>Biochemie</h1>
-<ul class="posts">
-{% for post in site.categories.biochemie1 reversed %}
-	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+	<ul class="posts">
+	{% for post in site.categories.biochemie reversed %}
+		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>

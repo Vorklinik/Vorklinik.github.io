@@ -7,11 +7,13 @@ notes: active
 	{{ page.content }}
 </div>
 
+<div style="margin-top:-10px;">
 {% include navigation.html %}
+</div>
 
 {% unless page.categories contains 'Home' %}
 <div> 
-	{% if page.anki %} <a style="float:right;color:lightgrey;text-decoration:none;margin-top:-10px;" href="{{page.anki}}">★</a> {% endif %}
+	{% if page.anki %} <a style="float:right;color:lightgrey;text-decoration:none;" href="{{page.anki}}">★</a> {% endif %}
 	{% include statcounter.html %}
 </div>
 {% endunless %}

@@ -27,6 +27,8 @@
 {% endif %}
 
 {% if current[1] contains "biochemie" %}
+         <ul><a href='{{site.baseurl}}/biochemie/enzyme'; {% if current[2] contains "biologie" %}style="color:#F38630;{% endif %}">Biologie</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/enzyme'; {% if current[2] contains "chemie" %}style="color:#F38630;{% endif %}">Chemie</a></ul>
          <ul><a href='{{site.baseurl}}/biochemie/enzyme'; {% if current[2] contains "enzyme" %}style="color:#F38630;{% endif %}">Enzyme und Proteine</a></ul>
          <ul><a href='{{site.baseurl}}/biochemie/enzyme'; {% if current[2] contains "lipide" %}style="color:#F38630;{% endif %}">Lipide</a></ul>
          <ul><a href='{{site.baseurl}}/biochemie/enzyme';">Nukleinsäuren</a></ul>

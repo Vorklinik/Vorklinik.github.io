@@ -3,7 +3,7 @@
 <nav>
 <ul class="flex-container"; style="font-size:160%">
    <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "anatomie" or current.size < 1 %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
-   <li><a href='{{site.baseurl}}/biochemie/enzyme' {% if current[1] contains "biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
+   <li><a href='{{site.baseurl}}/biochemie/biologie' {% if current[1] contains "biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
    <li><a href='{{site.baseurl}}/physiologie/physik' {% if current[1] contains "physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
    <li><a href='{{site.baseurl}}/' {% if current[1] contains "histologie" %} style="color:#F38630;"{% endif %}>Histologie</a></li>
    <li><a href='{{site.baseurl}}/' {% if current[1] contains "psysoz" %} style="color:#F38630;"{% endif %}>Psychologie/Soziologie</a></li>
@@ -23,14 +23,14 @@
 {% endif %}
 
 {% if current[1] contains "biochemie" %}
-         <ul><a href='{{site.baseurl}}/biochemie/enzyme'; {% if current[2] contains "biologie" %}style="color:#F38630;{% endif %}">Biologie</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/enzyme'; {% if current[2] contains "chemie" %}style="color:#F38630;{% endif %}">Chemie</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/enzyme'; {% if current[2] contains "enzyme" %}style="color:#F38630;{% endif %}">Enzyme und Proteine</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/enzyme'; {% if current[2] contains "lipide" %}style="color:#F38630;{% endif %}">Lipide</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/enzyme';">Nukleinsäuren</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/enzyme';">Signalleitung</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/enzyme';">Molekularbiologie</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/enzyme';">Molekularbiologie</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/biologie'; {% if current[2] contains "biologie" %}style="color:#F38630;{% endif %}">Biologie</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/biologie'; {% if current[2] contains "chemie" %}style="color:#F38630;{% endif %}">Chemie</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/biologie'; {% if current[2] contains "enzyme" %}style="color:#F38630;{% endif %}">Enzyme und Proteine</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/biologie'; {% if current[2] contains "lipide" %}style="color:#F38630;{% endif %}">Lipide</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/biologie';">Nukleinsäuren</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/biologie';">Signalleitung</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/biologie';">Molekularbiologie</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/biologie';">Molekularbiologie</a></ul>
 {% endif %}
 
 {% if current[1] contains "physiologie" %}

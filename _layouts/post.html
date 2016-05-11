@@ -21,6 +21,7 @@ notes: active
 
 <script language="javascript">
  var url = document.getElementById('myiframe').src;
- document.getElementById('myiframe').src = url;
+ var urlquery = location.search;
+ document.getElementById('myiframe').src = url + urlquery;
 </script>
 

@@ -20,22 +20,6 @@ notes: active
 {% include disqus.html %}
 
 <script language="javascript">
-(function load(){
 
-    if (window.addEventListener) {
-        window.addEventListener('load', run);
-    } else if (window.attachEvent) {
-        window.attachEvent('onload', run);
-    }
-
-    function run() {
-        var hassku = !!(location.search.indexOf('sku=') + 1);
-
-        if (hassku) {
-            document.getElementById('sku_frame').src = '/default.html' + location.search;
-        }
-    }
-
-})();
 </script>
 

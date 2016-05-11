@@ -7,6 +7,11 @@ notes: active
 	{{ page.content }}
 </div>
 
+<script language="javascript">
+    var iframe = document.getElementById('myiframe');
+        iframe.src = iframe.src + window.location.search;
+</script>
+
 {% include navigation.html %}
 
 {% unless page.categories contains 'Home' %}

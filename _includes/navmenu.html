@@ -36,13 +36,14 @@
 
 {% if current[1] contains "physiologie" %}
          <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "physik" %}style="color:#F38630;{% endif %}">Physik</a></ul>
-         <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "zellphysiologie" %}style="color:#F38630;{% endif %}">Zellphysiologie</a></ul>
-         <ul><a href='{{site.baseurl}}/physiologie/physik';">Niere</a></ul>
-         <ul><a href='{{site.baseurl}}/physiologie/physik';">Muskulatur</a></ul>
-         <ul><a href='{{site.baseurl}}/physiologie/physik';">Kreislauf</a></ul>
-         <ul><a href='{{site.baseurl}}/physiologie/physik';">Herz</a></ul>
-         <ul><a href='{{site.baseurl}}/physiologie/physik';">Atmung</a></ul>
-         <ul><a href='{{site.baseurl}}/physiologie/physik';">Nerv</a></ul>
+         <ul><a href='{{site.baseurl}}/physiologie/zellphysiologie'; {% if current[2] contains "zellphysiologie" %}style="color:#F38630;{% endif %}">Zellphysiologie</a></ul>
+         <ul><a href='{{site.baseurl}}/physiologie/niere'; {% if current[2] contains "Niere" %}style="color:#F38630;{% endif %}">Niere</a></ul>
+         <ul><a href='{{site.baseurl}}/physiologie/muskulatur'; {% if current[2] contains "Muskulatur" %}style="color:#F38630;{% endif %}">Muskulatur</a></ul>
+         <ul><a href='{{site.baseurl}}/physiologie/kreislauf'; {% if current[2] contains "Kreislauf" %}style="color:#F38630;{% endif %}">Kreislauf</a></ul>
+         <ul><a href='{{site.baseurl}}/physiologie/herz'; {% if current[2] contains "Herz" %}style="color:#F38630;{% endif %}">Herz</a></ul>
+         <ul><a href='{{site.baseurl}}/physiologie/atmung'; {% if current[2] contains "Atmung" %}style="color:#F38630;{% endif %}">Atmung</a></ul>
+         <ul><a href='{{site.baseurl}}/physiologie/nerv'; {% if current[2] contains "Nerv" %}style="color:#F38630;{% endif %}">Nerv</a></ul>
+
 {% endif %}
 </ul>
 </nav>

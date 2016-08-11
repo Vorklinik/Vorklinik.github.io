@@ -7,7 +7,7 @@ title: "Einführung in die Embryologie (2)"
 </center>
 
 ## Leitfragen
-- WDH: Lorem ipsum dolor sit amet, consetetur sadipscing elitr?
+- Lorem ipsum dolor sit amet, consetetur sadipscing elitr?
 - Frage?
 - Frage?
 - Frage?

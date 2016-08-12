@@ -1,3 +1,5 @@
-<center>
-<iframe id="myiframe" src="{{ post.vimeourl }}" width="875" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</center>
+{% if page.vimeourl %}
+  <center>
+    <iframe id="myiframe" src="{{ post.vimeourl }}" width="875" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </center>
+{% endif %}

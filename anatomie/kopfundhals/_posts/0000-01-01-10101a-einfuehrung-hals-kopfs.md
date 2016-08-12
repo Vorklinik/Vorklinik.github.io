@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Einführung in die Anatomie von Hals und Kopf"
+title: "Einführung in die Anatomie von Kopf und Hals"
 vimeourl: https://player.vimeo.com/video/160987632?title=0&byline=0&portrait=0
-keywords: "Embryologie, Fetus, Fötus"
+keywords: ""
 ---
 - Frage?
 - Frage?

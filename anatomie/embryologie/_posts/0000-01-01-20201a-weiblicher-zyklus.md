@@ -9,9 +9,6 @@ title: "Weiblicher Zyklus"
 ## Leitfragen
 - Frage?
 - Frage?
-- Frage?
-- Frage?
-- Frage?
 
 
 

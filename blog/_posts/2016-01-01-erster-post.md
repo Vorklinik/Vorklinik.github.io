@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blogpost"
+title: "Erster Blogpost"
 keywords: ""
 ---
 Text

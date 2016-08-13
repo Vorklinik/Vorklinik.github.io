@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Histologie des Nervensystem und der Sinnesorgane"
+title: "Einführung in die Histologie des Nervensystems"
 vimeourl: https://player.vimeo.com/video/160987632?title=0&byline=0&portrait=0
 ---
 - Frage?

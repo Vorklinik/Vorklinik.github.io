@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gametogenese (2)"
+title: "Meiose und Gametogenese (2)"
 vimeourl: https://player.vimeo.com/video/160987632?title=0&byline=0&portrait=0
 ---
 - Frage?

@@ -18,16 +18,6 @@
          <ul><a href='{{site.baseurl}}/anatomie/embryologie';>Obere Extremität</a></ul>
          <ul><a href='{{site.baseurl}}/anatomie/embryologie';>Untere Extremität</a></ul>
 {% endif %}
-{% if current[1] contains "biochemie" %}
-         <ul><a href='{{site.baseurl}}/biochemie/chemie'; {% if current[2] contains "chemie" %}style="color:#F38630;{% endif %}">Chemie</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/biologie'; {% if current[2] contains "biologie" %}style="color:#F38630;{% endif %}">Biologie</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/proteine'; {% if current[2] contains "proteine" %}style="color:#F38630;{% endif %}">Proteine</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/lipide'; {% if current[2] contains "lipide" %}style="color:#F38630;{% endif %}">Lipide</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/saccharide'; {% if current[2] contains "saccharide" %}style="color:#F38630;{% endif %}">Saccharide</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/nukleinsaeuren'; {% if current[2] contains "lipide" %}style="color:#F38630;{% endif %}">Nukleinsäuren</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/blut-immunsystem'; {% if current[2] contains "blut-immunsystem" %}style="color:#F38630;{% endif %}">Blut & Immunsystem</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/hormone-signaltransduktion'; {% if current[2] contains "hormone" %}style="color:#F38630;{% endif %}">Hormone & Signaltransduktion</a></ul>
-{% endif %}
 {% if current[1] contains "physiologie" %}
          <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "physik" %}style="color:#F38630;{% endif %}">Physik</a></ul>
          <ul><a href='{{site.baseurl}}/physiologie/neurophysiologie'; {% if current[2] contains "neurophysiologie" %}style="color:#F38630;{% endif %}">Neurophysiologie</a></ul>
@@ -38,6 +28,16 @@
          <ul><a href='{{site.baseurl}}/physiologie/niere'; {% if current[2] contains "niere" %}style="color:#F38630;{% endif %}">Niere</a></ul>
          <ul><a href='{{site.baseurl}}/physiologie/git'; {% if current[2] contains "git" %}style="color:#F38630;{% endif %}">GIT</a></ul>
          <ul><a href='{{site.baseurl}}/physiologie/hormonsystem'; {% if current[2] contains "hormonsystem" %}style="color:#F38630;{% endif %}">Hormonsystem</a></ul>
+{% endif %}
+{% if current[1] contains "biochemie" %}
+         <ul><a href='{{site.baseurl}}/biochemie/chemie'; {% if current[2] contains "chemie" %}style="color:#F38630;{% endif %}">Chemie</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/biologie'; {% if current[2] contains "biologie" %}style="color:#F38630;{% endif %}">Biologie</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/proteine'; {% if current[2] contains "proteine" %}style="color:#F38630;{% endif %}">Proteine</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/lipide'; {% if current[2] contains "lipide" %}style="color:#F38630;{% endif %}">Lipide</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/saccharide'; {% if current[2] contains "saccharide" %}style="color:#F38630;{% endif %}">Saccharide</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/nukleinsaeuren'; {% if current[2] contains "lipide" %}style="color:#F38630;{% endif %}">Nukleinsäuren</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/blut-immunsystem'; {% if current[2] contains "blut-immunsystem" %}style="color:#F38630;{% endif %}">Blut & Immunsystem</a></ul>
+         <ul><a href='{{site.baseurl}}/biochemie/hormone-signaltransduktion'; {% if current[2] contains "hormone" %}style="color:#F38630;{% endif %}">Hormone & Signaltransduktion</a></ul>
 {% endif %}
 {% if current[1] contains "histologie" %}
          <ul><a href='{{site.baseurl}}/histologie/gewebelehre'; {% if current[2] contains "gewebelehre" %}style="color:#F38630;{% endif %}">Gewebelehre</a></ul>

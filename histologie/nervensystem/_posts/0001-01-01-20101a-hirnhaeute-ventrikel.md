@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hirnhäute und Ventrikel"
-vimeourl: https://player.vimeo.com/
+vimeourl: https://player.vimeo.com/video/
 ---
 - Frage?
 - Frage?

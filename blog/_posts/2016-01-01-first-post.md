@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Erster Post"
+title: "Blogpost"
 keywords: ""
 ---
-# Erster Post
+# Blogpost
 Text
 

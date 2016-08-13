@@ -5,7 +5,7 @@ title: Blog
 <h1>Blog</h1>
 	<ul class="posts">
 	{% for post in site.categories.blog reversed %}
-		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} ({{ page.date | date: "%Y-%m-%d" }})</a></li>
+		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} ({{ post.date | date: "%Y-%m-%d" }})</a></li>
 	{% endfor %}
 	</ul>
 

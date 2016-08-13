@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ganglien und Nervenfasern"
+title: "Ganglien, Hirnnervenkerne und Nervenfasern"
 vimeourl: https://player.vimeo.com/video/160987632?title=0&byline=0&portrait=0
 ---
 - Frage?

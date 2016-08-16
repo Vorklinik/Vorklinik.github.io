@@ -2,7 +2,7 @@
 layout: post
 title: "Einführung in die Embryologie"
 vimeourl: https://player.vimeo.com/video/
-customdisqusid: /embryologie/20201a-menstruationszyklus
+customurl: http://vorklinik.eu/anatomie/embryologie/20101b-meiose-gametogenese
 ---
 - Frage?
 - Frage?

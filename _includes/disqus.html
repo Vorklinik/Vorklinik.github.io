@@ -2,8 +2,8 @@
     <script type="text/javascript">
         var disqus_shortname = 'vorklinik';
         
-        {% if page.customdisqusid %}var disqus_config = function () {
-             this.page.identifier = '{{ page.customdisqusid }}';
+        {% if page.customurl %}var disqus_config = function () {
+             this.page.url =  = '{{ page.customurl }}';
             };{% endif %}
              
         (function() {

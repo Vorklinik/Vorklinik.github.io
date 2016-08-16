@@ -1,10 +1,8 @@
 <div id="disqus_thread"></div>
     <script type="text/javascript">
         var disqus_shortname = 'vorklinik';
-        
-        {% if page.customurl %}var disqus_config = function () {
-             this.page.url =  = '{{ page.customurl }}';
-            };{% endif %}
+        var disqus_identifier = "{{ page.url }}";
+        {% if page.customurl %} disqus_identifier = "{{ customurl }}";{% endif %}
              
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

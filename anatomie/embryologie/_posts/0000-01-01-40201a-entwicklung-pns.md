@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Entwicklung des ZNS (2)"
+title: "Entwicklung des PNS"
 vimeourl: https://player.vimeo.com/video/
 ---
 - Stichwort 1

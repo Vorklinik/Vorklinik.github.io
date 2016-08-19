@@ -1,6 +1,6 @@
 {% assign current = page.url | downcase | split: '/' %}
 <nav>
-<ul class="flex-container"; style="font-size:150%">
+<ul class="flex-container"; style="font-size:155%">
    <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "anatomie" or current.size < 1 %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
    <li><a href='{{site.baseurl}}/histologie/gewebelehre' {% if current[1] contains "histologie" %} style="color:#F38630;"{% endif %}>Histologie</a></li>
    <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>

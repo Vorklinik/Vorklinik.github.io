@@ -2,7 +2,7 @@
 layout: post
 title: "Meiose und Gametogenese (1)"
 vimeourl: https://player.vimeo.com/video/
-lit: "Moore-Rauch 2006, Embryologie (S.200-211)"
+lit: "Moore 2006, Embryologie (S.200-211)"
 ---
 - Stichwort 1
 - Stichwort 2

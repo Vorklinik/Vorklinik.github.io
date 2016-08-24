@@ -8,4 +8,10 @@ title: Embryologie
 		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>
+<h2>Rückenmark, Cerebellum und Basalganglien</h2>
 
+	<ul class="posts">
+	{% for post in site.categories.rueckenmark-cerebellum-basalganglien reversed %}
+		<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>

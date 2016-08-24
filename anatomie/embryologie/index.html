@@ -4,28 +4,28 @@ title: Embryologie
 ---
 <h1>Embryologie</h1>
 <ul class="posts">
-{% for post in site.categories.embryologie reversed %}
+{% for post in site.categories.101-einfuehrung-embryologie reversed %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
 <h2>Gametogenese und Schwangerschaft</h2>
 <ul class="posts">
-{% for post in site.categories.gametogenese-schwangerschaft reversed %}
+{% for post in site.categories.201-gametogenese-schwangerschaft-geburt reversed %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
 <h2>Befruchtung, Implantation und Frühentwicklung</h2>	
 <ul class="posts">
-{% for post in site.categories.befruchtung-implantation-fruehentwicklung reversed %}
+{% for post in site.categories.301-befruchtung-implantation-fruehentwicklung reversed %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
 <h2>Weitere Organentwicklung</h2>
 <ul class="posts">
-{% for post in site.categories.entwicklung-organe reversed %}
+{% for post in site.categories.401-entwicklung-organe reversed %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

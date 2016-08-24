@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Einführung in die Neuroanatomie und Neurophysiologie"
+title: "Einführung in die Neuroanatomie & Neurophysiologie"
 vimeourl: https://player.vimeo.com/video/
 ---
 - Frage?

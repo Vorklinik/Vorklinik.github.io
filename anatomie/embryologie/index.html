@@ -2,14 +2,14 @@
 layout: default
 title: Embryologie
 ---
-<h1>Embryologie <sup>🔗</sup></h1>
+<h1>Embryologie</h1>
 <ul class="posts">
 {% for post in site.categories.1-einfuehrung-embryologie reversed %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
-<h2>Gametogenese, Schwangerschaft und Geburt</h2>
+<h2>Gametogenese, Schwangerschaft und Geburt <sup>🔗</sup></h2>
 <ul class="posts">
 {% for post in site.categories.2-gametogenese-schwangerschaft-geburt reversed %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>

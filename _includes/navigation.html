@@ -22,7 +22,7 @@
                  {% else if %}
 		<a rel="prev" class="prev"></a>
             {% endif %}
-            {% if next_post and {{ prev_post.categories }}== {{ next_post.categories }} %}
+            {% if next_post %}
                 <a rel="next" class="next" href="{{ site.baseurl }}{{ next_post.url }}">{{ next_post.title }} &raquo;</a>
                  {% else if %}
                  <a rel="next" class="next"></a>

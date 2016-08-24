@@ -71,6 +71,7 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+    style="margin-bottom:1px;
 }
 
 img {

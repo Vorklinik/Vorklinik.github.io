@@ -2,7 +2,7 @@
 layout: post
 title: "Einführung in die Embryologie"
 vimeourl: https://player.vimeo.com/video/
-customurl: /anatomie/embryologie/10101a-einfuehrung-embryologie
+customurl: /anatomie/embryologie/101-einfuehrung-embryologie/101a-einfuehrung-embryologie
 ---
 - Stichwort 1
 - Stichwort 2

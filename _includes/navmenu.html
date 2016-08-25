@@ -5,7 +5,7 @@
    <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "histologie" %} style="color:#F38630;"{% endif %}>Histologie</a></li>
    <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
    <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
-   <li><a href='{{site.baseurl}}/pathologie/cardiovaskulaeres-system' {% if current[1] contains "pathologie  " %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
+   <li><a href='{{site.baseurl}}/pathologie/cardiovaskulaeres-system' {% if current[1] contains "pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
    <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
    <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "psysoz" %} style="color:#F38630;"{% endif %}>Psychologie/Soziologie</a></li>
 </ul>	
@@ -38,6 +38,10 @@
          <ul><a href='{{site.baseurl}}/physiologie/niere'; {% if current[2] contains "niere" %}style="color:#F38630;{% endif %}">Niere</a></ul>
          <ul><a href='{{site.baseurl}}/physiologie/git'; {% if current[2] contains "git" %}style="color:#F38630;{% endif %}">GIT</a></ul>
          <ul><a href='{{site.baseurl}}/physiologie/hormonsystem'; {% if current[2] contains "hormonsystem" %}style="color:#F38630;{% endif %}">Hormonsystem</a></ul>
+{% endif %}
+
+{% if current[1] contains "pathologie" %}
+         <ul><a href='{{site.baseurl}}/pathologie/cardiovaskulaeres-system'; {% if current[2] contains "cardiovaskulaeres-system" %}style="color:#F38630;{% endif %}">Cardiovaskuläres System</a></ul>
 {% endif %}
 {% if current[1] contains "biochemie" %}
          <ul><a href='{{site.baseurl}}/biochemie/chemie'; {% if current[2] contains "chemie" %}style="color:#F38630;{% endif %}">Chemie</a></ul>

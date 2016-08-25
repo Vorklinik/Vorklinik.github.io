@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Strukturelle und nummerische Chromosomenabberationen"
+title: "Einführung in die Pathophysiologie"
 vimeourl: https://player.vimeo.com/video/
 ---
 - Frage?

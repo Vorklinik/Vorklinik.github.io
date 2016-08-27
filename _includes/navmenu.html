@@ -53,8 +53,16 @@
          <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "neurophysiologie" %}style="color:#F38630;{% endif %}">Neurophysiologie und Muskulatur</a></ul>
 {% endif %}
 
+
+{% if current[1] contains "psysoz" %}
+         <ul><a href='{{site.baseurl}}/psysoz/gesundheit-krankheit'; {% if current[2] contains "gesundheit-krankheit" %}style="color:#F38630;{% endif %}">Gesundheit und Krankheit</a></ul>
+         <ul><a href='{{site.baseurl}}/psysoz/psychologie-grundlagen'; {% if current[2] contains "psychologie-grundlagen" %}style="color:#F38630;{% endif %}">Grundlagen der Psychologie</a></ul>
+         <ul><a href='{{site.baseurl}}/psysoz/aerztliches-handeln'; {% if current[2] contains "aerztliches-handeln" %}style="color:#F38630;{% endif %}">Ärztliches Handeln</a></ul>
+         <ul><a href='{{site.baseurl}}/psysoz/gesundheitssystem'; {% if current[2] contains "gesundheitssystem" %}style="color:#F38630;{% endif %}">Das Gesundheitssystem</a></ul>
+{% endif %}
+
 {% if current[1] contains "pathologie" %}
-         <ul><a href='{{site.baseurl}}/pathologie/allgemeine-pharmakologie'; {% if current[2] contains "allgemeine-pharmakologie" %}style="color:#F38630;{% endif %}">Allgemeine Pharmakologie</a></ul>
+         <ul><a href='{{site.baseurl}}/pathologie/grundlagen'; {% if current[2] contains "grundlagen" %}style="color:#F38630;{% endif %}">Grundlagen</a></ul>
          <ul><a href='{{site.baseurl}}/pathologie/herz-kreislauf-system,'; {% if current[2] contains "herz-kreislauf-system" %}style="color:#F38630;{% endif %}">Herz-Kreislauf-System</a></ul>
          <ul><a href='{{site.baseurl}}/pathologie/hormonsystem'; {% if current[2] contains "hormonsystem" %}style="color:#F38630;{% endif %}">Hormonsystem</a></ul>
          <ul><a href='{{site.baseurl}}/pathologie/git'; {% if current[2] contains "GIT" %}style="color:#F38630;{% endif %}">GIT</a></ul>
@@ -63,12 +71,11 @@
          <ul><a href='{{site.baseurl}}/pathologie/andere-organsysteme'; {% if current[2] contains "andere-organsysteme" %}style="color:#F38630;{% endif %}">Andere Organsysteme</a></ul>
 {% endif %}
 
-{% if current[1] contains "psysoz" %}
-         <ul><a href='{{site.baseurl}}/psysoz/gesundheit-krankheit'; {% if current[2] contains "gesundheit-krankheit" %}style="color:#F38630;{% endif %}">Gesundheit und Krankheit</a></ul>
-         <ul><a href='{{site.baseurl}}/psysoz/psychologie-grundlagen'; {% if current[2] contains "psychologie-grundlagen" %}style="color:#F38630;{% endif %}">Grundlagen der Psychologie</a></ul>
-         <ul><a href='{{site.baseurl}}/psysoz/aerztliches-handeln'; {% if current[2] contains "aerztliches-handeln" %}style="color:#F38630;{% endif %}">Ärztliches Handeln</a></ul>
-         <ul><a href='{{site.baseurl}}/psysoz/gesundheitssystem'; {% if current[2] contains "gesundheitssystem" %}style="color:#F38630;{% endif %}">Das Gesundheitssystem</a></ul>
+
+{% if current[1] contains "pharmakologie" %}
+         <ul><a href='{{site.baseurl}}/pharmakologie/allgemeine-pharmakologie'; {% if current[2] contains "allgemeine-pharmakologie" %}style="color:#F38630;{% endif %}">Allgemeine Pharmakologie</a></ul>
 {% endif %}
+
 
 </ul>
 </nav>

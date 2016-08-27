@@ -1,2 +1,2 @@
 # Vorklinik.github.io
-medizin.vorklinik@gmail.com
+admin@vorklinik.eu

@@ -3,7 +3,59 @@ layout: default
 title: Physik
 ---
 
-<h1>Physik</h1>
+<h1>{{ page.title }}</h1>
+
+<h2>Lernpaket 1a: Mathematische Grundlagen</h2>
+<ul class="posts">
+{% for post in site.categories.physik reversed %}
+	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Lernpaket 1b: Mechanik starrer Körper</h2>
+<ul class="posts">
+{% for post in site.categories.physik reversed %}
+	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Lernpaket 2a: Mechanik ausgedehnter un deformierbarer Körper</h2>
+<ul class="posts">
+{% for post in site.categories.physik reversed %}
+	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+<h2>Lernpaket 2c: Wärme, Löslichkeit und Diffusion</h2>
+<ul class="posts">
+{% for post in site.categories.physik reversed %}
+	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Lernpaket 3a: Elektrizität und Magnetismus</h2>
+<ul class="posts">
+{% for post in site.categories.physik reversed %}
+	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Lernpaket 3b: Schwingungen und Wellen</h2>
+<ul class="posts">
+{% for post in site.categories.physik reversed %}
+	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Lernpaket 4a: Optik</h2>
+<ul class="posts">
+{% for post in site.categories.physik reversed %}
+	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Lernpaket 4b: Ionisierende Strahlung</h2>
 <ul class="posts">
 {% for post in site.categories.physik reversed %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>

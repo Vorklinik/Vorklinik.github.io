@@ -7,7 +7,7 @@
    <li><a href='{{site.baseurl}}/physiologie/physik' {% if current[1] contains "physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
    <li><a href='{{site.baseurl}}/psysoz/gesundheit-krankheit' {% if current[1] contains "psysoz" %} style="color:#F38630;"{% endif %}>Psychologie/Soziologie</a></li>
    <li><a href='{{site.baseurl}}/pathologie/grundlagen' {% if current[1] contains "pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
-   <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
+   <li><a href='{{site.baseurl}}/pharmakologie/allgemeine-pharmakologie' {% if current[1] contains "pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
 </ul>	
 
 <ul class="flex-container"; style="font-size:60%">
@@ -54,7 +54,7 @@
 {% endif %}
 
 {% if current[1] contains "pathologie" %}
-         <ul><a href='{{site.baseurl}}/pathologie/grundlagen'; {% if current[2] contains "grundlagen" %}style="color:#F38630;{% endif %}">Grundlagen</a></ul>
+         <ul><a href='{{site.baseurl}}/pathologie/allgemeine-pharmakologie'; {% if current[2] contains "allgemeine-pharmakologie" %}style="color:#F38630;{% endif %}">Allgemeine Pharmakologie</a></ul>
          <ul><a href='{{site.baseurl}}/pathologie/herz-kreislauf-system,'; {% if current[2] contains "herz-kreislauf-system" %}style="color:#F38630;{% endif %}">Herz-Kreislauf-System</a></ul>
          <ul><a href='{{site.baseurl}}/pathologie/hormonsystem'; {% if current[2] contains "hormonsystem" %}style="color:#F38630;{% endif %}">Hormonsystem</a></ul>
          <ul><a href='{{site.baseurl}}/pathologie/git'; {% if current[2] contains "GIT" %}style="color:#F38630;{% endif %}">GIT</a></ul>

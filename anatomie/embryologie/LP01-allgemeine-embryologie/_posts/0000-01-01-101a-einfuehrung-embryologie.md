@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Einführung in die Embryologie"
+title: "Einführung"
 vimeourl: https://player.vimeo.com/video/
 ---
 - Stichwort 1

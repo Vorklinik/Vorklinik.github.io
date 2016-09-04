@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Einführung"
-vimeourl: https://player.vimeo.com/video/
 vidid: 20160904033249
 ---
 - Stichwort 1

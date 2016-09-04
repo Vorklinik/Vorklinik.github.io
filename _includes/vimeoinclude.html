@@ -2,8 +2,11 @@
   <center>
     <br><br>
     <iframe id="myiframe" src="{{ page.vimeourl }}" width="875" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </center>
+ <H2>Übersicht <sup><a href="http://dl.vorklinik.eu/{{ page.vidid }}.apkg" download="TestDeck.apkg">🔗</a></sup></H2>
+{% endif %}
 
-    <script>
+<script>
         // This is the URL of the video you want to load
         var videoUrl = 'https://vimeo.com/vorklinik/{{ page.vidid }}';
         // This is the oEmbed endpoint for Vimeo (we're using JSON)
@@ -26,13 +29,7 @@
         }
         // Call our init function when the page loads
         window.onload = init;
-    </script>
-
-<div id="embed">Loading video...</div>
-  </center>
- <H2>Übersicht <sup><a href="http://dl.vorklinik.eu/{{ page.vidid }}.apkg" download="TestDeck.apkg">🔗</a></sup></H2>
-{% endif %}
-
+</script>
 
 
 

@@ -1,7 +1,7 @@
 {% assign current = page.url | downcase | split: '/' %}
 <nav>
 <ul class="flex-container"; style="font-size:167%">
-      <li><a href='{{site.baseurl}}/grundlagenfaecher/chemie' {% if current[1] contains "anatomie" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>
+   <li><a href='{{site.baseurl}}/basiswissen/chemie' {% if current[1] contains "basiswissen" or current.size < 1 %} style="color:#F38630;"{% endif %}>Basiswissen</a></li>
    <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "anatomie" or current.size < 1 %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
    <li><a href='{{site.baseurl}}/biochemie/chemie' {% if current[1] contains "biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
    <li><a href='{{site.baseurl}}/physiologie/physik' {% if current[1] contains "physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
@@ -9,6 +9,13 @@
    <li><a href='{{site.baseurl}}/pathologie/grundlagen' {% if current[1] contains "pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
    <li><a href='{{site.baseurl}}/pharmakologie/allgemeine-pharmakologie' {% if current[1] contains "pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
 </ul>	
+
+<ul class="flex-container"; style="font-size:60%">
+{% if current[1] contains "basiswissen" or current.size < 1  or current[1] contains "impressum" or current[1] contains "blog" %}
+         <ul><a href='{{site.baseurl}}/basiswissen/chemie'; {% if current[2] contains "chemie" or current.size < 1  %} style="color:#F38630;{% endif %}">Chemie</a></ul>
+         <ul><a href='{{site.baseurl}}/basiswissen/chemie'; {% if current[2] contains "chemie" or current.size < 1  %} style="color:#F38630;{% endif %}">Biologie</a></ul>
+         <ul><a href='{{site.baseurl}}/basiswissen/chemie'; {% if current[2] contains "chemie" or current.size < 1  %} style="color:#F38630;{% endif %}">Physik</a></ul>
+{% endif %}
 
 <ul class="flex-container"; style="font-size:60%">
 {% if current[1] contains "anatomie" or current.size < 1  or current[1] contains "impressum" or current[1] contains "blog" %}

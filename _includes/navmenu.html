@@ -4,7 +4,6 @@
    <li><a href='{{site.baseurl}}/basiswissen/physik' {% if current[1] contains "physik" or current.size < 1 %} style="color:#F38630;"{% endif %}>Physik</a></li>
    <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "anatomie" or current.size < 1 %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
    <li><a href='{{site.baseurl}}/biochemie/chemie' {% if current[1] contains "biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
-   <li><a href='{{site.baseurl}}/histologie/gewebelehre' {% if current[1] contains "histologie" %} style="color:#F38630;"{% endif %}>Histologie</a></li>
    <li><a href='{{site.baseurl}}/physiologie/physik' {% if current[1] contains "physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
    <li><a href='{{site.baseurl}}/psysoz/gesundheit-krankheit' {% if current[1] contains "psysoz" %} style="color:#F38630;"{% endif %}>Psychologie/Soziologie</a></li>
    <li><a href='{{site.baseurl}}/pathologie/grundlagen' {% if current[1] contains "pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
@@ -14,11 +13,11 @@
 <ul class="flex-container"; style="font-size:60%">
 {% if current[1] contains "anatomie" or current.size < 1  or current[1] contains "impressum" or current[1] contains "blog" %}
          <ul><a href='{{site.baseurl}}/anatomie/embryologie'; {% if current[2] contains "embryologie" or current.size < 1  %} style="color:#F38630;{% endif %}">Embryologie</a></ul>
-         <ul><a href='{{site.baseurl}}/anatomie/obere-extremitaet'; {% if current[2] contains "obere-extremitaet" %} style="color:#F38630;{% endif %}">Obere Extremität</a></ul>
-         <ul><a href='{{site.baseurl}}/anatomie/untere-extremitaet'; {% if current[2] contains "untere-extremitaet" %} style="color:#F38630;{% endif %}">Untere Extremität</a></ul>
+         <ul><a href='{{site.baseurl}}/anatomie/extremitaet'; {% if current[2] contains "obere-extremitaet" %} style="color:#F38630;{% endif %}">Extremität</a></ul>
          <ul><a href='{{site.baseurl}}/anatomie/rumpf-und-innere-organe'; {% if current[2] contains "rumpf-und-innere-organe" %} style="color:#F38630;{% endif %}">Rumpf und innere Organe</a></ul>
          <ul><a href='{{site.baseurl}}/anatomie/kopf-und-hals'; {% if current[2] contains "kopf-und-hals" %} style="color:#F38630;{% endif %}">Kopf und Hals</a></ul>
          <ul><a href='{{site.baseurl}}/anatomie/neuroanatomie'; {% if current[2] contains "neuroanatomie" %} style="color:#F38630;{% endif %}">Neuroanatomie</a></ul>
+         <ul><a href='{{site.baseurl}}/anatomie/histologie'; {% if current[2] contains "histologie" %} style="color:#F38630;{% endif %}">Histologie</a></ul>
 {% endif %}
 
 {% if current[1] contains "biochemie" %}

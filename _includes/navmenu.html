@@ -1,9 +1,10 @@
 {% assign current = page.url | downcase | split: '/' %}
 <nav>
 <ul class="flex-container"; style="font-size:167%">
-   <li><a href='{{site.baseurl}}/basiswissen/chemie' {% if current[1] contains "basiswissen" or current.size < 1 %} style="color:#F38630;"{% endif %}>Basiswissen</a></li>
-   <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "anatomie" %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
+   <li><a href='{{site.baseurl}}/basiswissen/physik' {% if current[1] contains "physik" or current.size < 1 %} style="color:#F38630;"{% endif %}>Physik</a></li>
+   <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "anatomie" or current.size < 1 %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
    <li><a href='{{site.baseurl}}/biochemie/chemie' {% if current[1] contains "biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
+   <li><a href='{{site.baseurl}}/histologie/gewebelehre' {% if current[1] contains "histologie" %} style="color:#F38630;"{% endif %}>Histologie</a></li>
    <li><a href='{{site.baseurl}}/physiologie/physik' {% if current[1] contains "physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
    <li><a href='{{site.baseurl}}/psysoz/gesundheit-krankheit' {% if current[1] contains "psysoz" %} style="color:#F38630;"{% endif %}>Psychologie/Soziologie</a></li>
    <li><a href='{{site.baseurl}}/pathologie/grundlagen' {% if current[1] contains "pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
@@ -11,20 +12,13 @@
 </ul>	
 
 <ul class="flex-container"; style="font-size:60%">
-{% if current[1] contains "basiswissen" %}
-    <ul><a href='{{site.baseurl}}/basiswissen/chemie'; {% if current[2] contains "chemie" or current.size < 1  %} style="color:#F38630;{% endif %}">Chemie</a></ul>
-    <ul><a href='{{site.baseurl}}/basiswissen/biologie'; {% if current[2] contains "biologie" %} style="color:#F38630;{% endif %}">Biologie</a></ul>
-    <ul><a href='{{site.baseurl}}/basiswissen/physik'; {% if current[2] contains "biologie" %} style="color:#F38630;{% endif %}">Physik</a></ul>
-{% endif %}
-
-<ul class="flex-container"; style="font-size:60%">
 {% if current[1] contains "anatomie" or current.size < 1  or current[1] contains "impressum" or current[1] contains "blog" %}
          <ul><a href='{{site.baseurl}}/anatomie/embryologie'; {% if current[2] contains "embryologie" or current.size < 1  %} style="color:#F38630;{% endif %}">Embryologie</a></ul>
-         <ul><a href='{{site.baseurl}}/anatomie/extremitaet'; {% if current[2] contains "extremitaet" %} style="color:#F38630;{% endif %}">Extremität</a></ul>
+         <ul><a href='{{site.baseurl}}/anatomie/obere-extremitaet'; {% if current[2] contains "obere-extremitaet" %} style="color:#F38630;{% endif %}">Obere Extremität</a></ul>
+         <ul><a href='{{site.baseurl}}/anatomie/untere-extremitaet'; {% if current[2] contains "untere-extremitaet" %} style="color:#F38630;{% endif %}">Untere Extremität</a></ul>
          <ul><a href='{{site.baseurl}}/anatomie/rumpf-und-innere-organe'; {% if current[2] contains "rumpf-und-innere-organe" %} style="color:#F38630;{% endif %}">Rumpf und innere Organe</a></ul>
          <ul><a href='{{site.baseurl}}/anatomie/kopf-und-hals'; {% if current[2] contains "kopf-und-hals" %} style="color:#F38630;{% endif %}">Kopf und Hals</a></ul>
          <ul><a href='{{site.baseurl}}/anatomie/neuroanatomie'; {% if current[2] contains "neuroanatomie" %} style="color:#F38630;{% endif %}">Neuroanatomie</a></ul>
-         <ul><a href='{{site.baseurl}}/anatomie/histologie'; {% if current[2] contains "histologie" %} style="color:#F38630;{% endif %}">Histologie</a></ul>
 {% endif %}
 
 {% if current[1] contains "biochemie" %}
@@ -43,9 +37,9 @@
          <ul><a href='{{site.baseurl}}/histologie/gewebelehre'; {% if current[2] contains "gewebelehre" %}style="color:#F38630;{% endif %}">Gewebelehre</a></ul>
          <ul><a href='{{site.baseurl}}/histologie/kreislauf-immunsystem'; {% if current[2] contains "kreislauf-immunsystem" %}style="color:#F38630;{% endif %}">Kreislauf und Immunsystem</a></ul>
          <ul><a href='{{site.baseurl}}/histologie/respirationssystem'; {% if current[2] contains "respirationssystem" %}style="color:#F38630;{% endif %}">Respirationssystem</a></ul>      
-         <ul><a href='{{site.baseurl}}/histologie/verdauungsapparat'; {% if current[2] contains "verdauungsapparat" %}style="color:#F38630;{% endif %}">Verdauung</a></ul>
+         <ul><a href='{{site.baseurl}}/histologie/verdauungsapparat'; {% if current[2] contains "verdauungsapparat" %}style="color:#F38630;{% endif %}">Verdauungsapparat</a></ul>
          <ul><a href='{{site.baseurl}}/histologie/urogenitalsystem'; {% if current[2] contains "urogenitalsystem" %}style="color:#F38630;{% endif %}">Urogenitalsystem</a></ul>
-         <ul><a href='{{site.baseurl}}/histologie/nervensystem'; {% if current[2] contains "nervensystem" %}style="color:#F38630;{% endif %}">Endokrines- und Nervensystem</a></ul>
+         <ul><a href='{{site.baseurl}}/histologie/nervensystem'; {% if current[2] contains "nervensystem" %}style="color:#F38630;{% endif %}">Nervensystem</a></ul>
 {% endif %}
 
 {% if current[1] contains "physiologie" %}

@@ -2,7 +2,7 @@
 <nav>
 <ul class="flex-container"; style="font-size:167%">
    <li><a href='{{site.baseurl}}/basiswissen/chemie' {% if current[1] contains "basiswissen" or current.size < 1 %} style="color:#F38630;"{% endif %}>Basiswissen</a></li>
-   <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "anatomie" or current.size < 1 %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
+   <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "anatomie" %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
    <li><a href='{{site.baseurl}}/biochemie/chemie' {% if current[1] contains "biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
    <li><a href='{{site.baseurl}}/physiologie/physik' {% if current[1] contains "physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
    <li><a href='{{site.baseurl}}/psysoz/gesundheit-krankheit' {% if current[1] contains "psysoz" %} style="color:#F38630;"{% endif %}>Psychologie/Soziologie</a></li>

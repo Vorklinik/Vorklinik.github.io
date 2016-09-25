@@ -1,13 +1,13 @@
 {% assign current = page.url | downcase | split: '/' %}
 <nav>
 <ul class="flex-container"; style="font-size:167%">
-   <li><a href='{{site.baseurl}}/basiswissen/physik' {% if current[1] contains "physik" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>
-   <li><a href='{{site.baseurl}}/anatomie/embryologie' {% if current[1] contains "anatomie" or current.size < 1 %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
-   <li><a href='{{site.baseurl}}/biochemie/chemie' {% if current[1] contains "biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
-   <li><a href='{{site.baseurl}}/physiologie/physik' {% if current[1] contains "physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
-   <li><a href='{{site.baseurl}}/psysoz/gesundheit-krankheit' {% if current[1] contains "psysoz" %} style="color:#F38630;"{% endif %}>Psychologie/Soziologie</a></li>
-   <li><a href='{{site.baseurl}}/pathologie/grundlagen' {% if current[1] contains "pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
-   <li><a href='{{site.baseurl}}/pharmakologie/allgemeine-pharmakologie' {% if current[1] contains "pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
+   <li><a href='{{site.baseurl}}/1-grundlagen/1-physik' {% if current[1] contains "1-physik" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>
+   <li><a href='{{site.baseurl}}/2-anatomie/1-embryologie' {% if current[1] contains "2-anatomie" or current.size < 1 %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
+   <li><a href='{{site.baseurl}}/3-biochemie/chemie' {% if current[1] contains "3-biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
+   <li><a href='{{site.baseurl}}/4-physiologie/physik' {% if current[1] contains "4-physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
+   <li><a href='{{site.baseurl}}/5-psysoz/gesundheit-krankheit' {% if current[1] contains "5-psysoz" %} style="color:#F38630;"{% endif %}>Psychologie/Soziologie</a></li>
+   <li><a href='{{site.baseurl}}/6-pharmakologie/allgemeine-pharmakologie' {% if current[1] contains "6-pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
+   <li><a href='{{site.baseurl}}/7-pathologie/grundlagen' {% if current[1] contains "7-pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
 </ul>	
 
 <ul class="flex-container"; style="font-size:60%">

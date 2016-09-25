@@ -7,7 +7,15 @@ title: Obere Extremität
 <h2> Lernpaket 2: Obere Extremität und Schultergürtel <sup><a href="http://dl.vorklinik.eu/TestDeck.apkg" download="TestDeck.apkg">🔗</a></sup></h2>
 <ul class="posts">
 {% for post in site.categories.anatomie%}
-    {% if post.categories contains "LP02"%}
+    {% if post.categories contains "lp02"%}
+	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+<h2> Lernpaket 3: Untere Extremität und Beckengürtel <sup><a href="http://dl.vorklinik.eu/TestDeck.apkg" download="TestDeck.apkg">🔗</a></sup></h2>
+<ul class="posts">
+{% for post in site.categories.anatomie%}
+    {% if post.categories contains "lp03"%}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
     {% endif %}
 {% endfor %}

@@ -3,7 +3,7 @@
 <ul class="flex-container"; style="font-size:167%">
    <li><a href='{{site.baseurl}}/1-grundlagen/1-physik' {% if current[1] contains "1-grundlagen" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>
    <li><a href='{{site.baseurl}}/2-anatomie/1-embryologie' {% if current[1] contains "2-anatomie" %} style="color:#F38630;"{% endif %}>Anatomie und Histologie</a></li>
-   <li><a href='{{site.baseurl}}/3-biochemie/1-chemie' {% if current[1] contains "3-biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
+   <li><a href='{{site.baseurl}}/3-biochemie/1-stoffwechsel' {% if current[1] contains "3-biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
    <li><a href='{{site.baseurl}}/4-physiologie/1-zellphysiologie' {% if current[1] contains "4-physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
    <li><a href='{{site.baseurl}}/6-pharmakologie/1-allgemeine-pharmakologie' {% if current[1] contains "6-pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
    <li><a href='{{site.baseurl}}/7-pathologie/1-grundlagen' {% if current[1] contains "7-pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
@@ -28,8 +28,6 @@
 {% endif %}
 
 {% if current[1] contains "biochemie" %}
-         <ul><a href='{{site.baseurl}}/biochemie/chemie'; {% if current[2] contains "chemie" %}style="color:#F38630;{% endif %}">Chemie</a></ul>
-         <ul><a href='{{site.baseurl}}/biochemie/biologie'; {% if current[2] contains "biologie" %}style="color:#F38630;{% endif %}">Biologie</a></ul>
          <ul><a href='{{site.baseurl}}/biochemie/stoffwechsel'; {% if current[2] contains "stoffwechsel" %}style="color:#F38630;{% endif %}">Stoffwechsel</a></ul>
          <ul><a href='{{site.baseurl}}/biochemie/enzyme'; {% if current[2] contains "enzyme" %}style="color:#F38630;{% endif %}">Enzyme</a></ul>
          <ul><a href='{{site.baseurl}}/biochemie/hormone'; {% if current[2] contains "hormone" %}style="color:#F38630;{% endif %}">Hormone</a></ul>
@@ -49,8 +47,7 @@
 {% endif %}
 
 {% if current[1] contains "physiologie" %}
-         <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "physik" %}style="color:#F38630;{% endif %}">Physik</a></ul>
-         <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "zellphysiologie" %}style="color:#F38630;{% endif %}">Zellphysiologie</a></ul>
+         <ul><a href='{{site.baseurl}}/4-physiologie/1-zellphysiologie'; {% if current[2] contains "zellphysiologie" %}style="color:#F38630;{% endif %}">Zellphysiologie</a></ul>
          <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "blut" %}style="color:#F38630;{% endif %}">Blut</a></ul>
          <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "kreislauf" %}style="color:#F38630;{% endif %}">Kreislauf</a></ul>
          <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "atmung" %}style="color:#F38630;{% endif %}">Atmung</a></ul>
@@ -58,14 +55,6 @@
          <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "niere" %}style="color:#F38630;{% endif %}">Niere</a></ul>
          <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "hormone" %}style="color:#F38630;{% endif %}">Hormone</a></ul>
          <ul><a href='{{site.baseurl}}/physiologie/physik'; {% if current[2] contains "neurophysiologie" %}style="color:#F38630;{% endif %}">Neurophysiologie und Muskulatur</a></ul>
-{% endif %}
-
-
-{% if current[1] contains "psysoz" %}
-         <ul><a href='{{site.baseurl}}/psysoz/gesundheit-krankheit'; {% if current[2] contains "gesundheit-krankheit" %}style="color:#F38630;{% endif %}">Gesundheit und Krankheit</a></ul>
-         <ul><a href='{{site.baseurl}}/psysoz/psychologie-grundlagen'; {% if current[2] contains "psychologie-grundlagen" %}style="color:#F38630;{% endif %}">Grundlagen der Psychologie</a></ul>
-         <ul><a href='{{site.baseurl}}/psysoz/aerztliches-handeln'; {% if current[2] contains "aerztliches-handeln" %}style="color:#F38630;{% endif %}">Ärztliches Handeln</a></ul>
-         <ul><a href='{{site.baseurl}}/psysoz/gesundheitssystem'; {% if current[2] contains "gesundheitssystem" %}style="color:#F38630;{% endif %}">Das Gesundheitssystem</a></ul>
 {% endif %}
 
 {% if current[1] contains "pathologie" %}

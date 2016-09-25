@@ -2,18 +2,22 @@
 <nav>
 <ul class="flex-container"; style="font-size:167%">
    <li><a href='{{site.baseurl}}/1-grundlagen/1-physik' {% if current[1] contains "1-grundlagen" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>
-   <li><a href='{{site.baseurl}}/2-anatomie/1-embryologie' {% if current[1] contains "2-anatomie" or current.size < 1 %} style="color:#F38630;"{% endif %}>Anatomie</a></li>
+   <li><a href='{{site.baseurl}}/2-anatomie/1-embryologie' {% if current[1] contains "2-anatomie" </a></li>
    <li><a href='{{site.baseurl}}/3-biochemie/1-chemie' {% if current[1] contains "3-biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
    <li><a href='{{site.baseurl}}/4-physiologie/1-zellphysiologie' {% if current[1] contains "4-physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
    <li><a href='{{site.baseurl}}/5-psysoz/1-gesundheit-krankheit' {% if current[1] contains "5-psysoz" %} style="color:#F38630;"{% endif %}>Psychologie/Soziologie</a></li>
    <li><a href='{{site.baseurl}}/6-pharmakologie/1-allgemeine-pharmakologie' {% if current[1] contains "6-pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
    <li><a href='{{site.baseurl}}/7-pathologie/1-grundlagen' {% if current[1] contains "7-pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
 </ul>	
+<ul class="flex-container"; style="font-size:60%">
+{% if current[1] contains "1-grundlagen" or current.size < 1  or current[1] contains "impressum" or current[1] contains "blog" %}
+         <ul><a href='{{site.baseurl}}/1-grundlagen/1-physik'; {% if current[2] contains "1-grundlagen" or current.size < 1  %} style="color:#F38630;{% endif %}">Embryologie</a></ul>
+{% endif %}
 
 <ul class="flex-container"; style="font-size:60%">
-{% if current[1] contains "anatomie" or current.size < 1  or current[1] contains "impressum" or current[1] contains "blog" %}
+{% if current[1] contains "anatomie" %}
          <ul><a href='{{site.baseurl}}/2-anatomie/1-embryologie'; {% if current[2] contains "1-embryologie" or current.size < 1  %} style="color:#F38630;{% endif %}">Embryologie</a></ul>
-         <ul><a href='{{site.baseurl}}/2-anatomie/2-extremitaeten'; {% if current[2] contains "2-obere-extremitaet" %} style="color:#F38630;{% endif %}">Obere und untere Extremität</a></ul>
+         <ul><a href='{{site.baseurl}}/2-anatomie/2-extremitaeten'; {% if current[2] contains "2-extremitaeten" %} style="color:#F38630;{% endif %}">Obere und untere Extremität</a></ul>
          <ul><a href='{{site.baseurl}}/2-anatomie/3-rumpf-und-innere-organe'; {% if current[2] contains "3-rumpf-und-innere-organe" %} style="color:#F38630;{% endif %}">Rumpf und innere Organe</a></ul>
          <ul><a href='{{site.baseurl}}/2-anatomie/4-kopf-und-hals'; {% if current[2] contains "4-kopf-und-hals" %} style="color:#F38630;{% endif %}">Kopf und Hals</a></ul>
          <ul><a href='{{site.baseurl}}/2-anatomie/5-neuroanatomie'; {% if current[2] contains "5-neuroanatomie" %} style="color:#F38630;{% endif %}">Neuroanatomie</a></ul>

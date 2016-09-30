@@ -7,15 +7,8 @@ title: Physik
 <h2> Lernpaket 1: Mathematische Grundlagen {% include ankilink.html link="TestDeck.apkg" %}</h2>
 {% include vidlist.html cat1="1-grundlagen" cat2="2-mathematische-grundlagen" %}
 
-
 <h2> Lernpaket 2: Mechanik {% include ankilink.html link="TestDeck.apkg" %}</h2>
-<ul class="posts">
-{% for post in site.categories.?%}
-    {% if post.categories contains "?"%}
-	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endif %}
-{% endfor %}
-</ul>
+{% include vidlist.html cat1="1-grundlagen" cat2="2-mathematische-grundlagen" %}
 
 <h2> Lernpaket 3: Wärme und Löslichkeit<sup><a href="http://dl.vorklinik.eu/TestDeck.apkg" download="TestDeck.apkg">🔗</a></sup></h2>
 <ul class="posts">

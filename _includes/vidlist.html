@@ -1,1 +1,4 @@
-
+{% for post in site.categories.?%}
+  {% if post.categories contains "?"%}
+  <li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endif %}

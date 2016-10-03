@@ -9,7 +9,9 @@ title: Physik
 <ul class="posts">
 {% for post in site.categories.1-grundlagen%}
     {% if post.categories contains "1-physik"%}
+    {% if post.categories contains "1-mathematische-grundlagen"%}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endif %}
     {% endif %}
 {% endfor %}
 </ul>

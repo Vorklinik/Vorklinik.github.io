@@ -2,6 +2,7 @@
 {% for post in site.categories.{{ include.cat1 }} %}
     {% if post.categories contains "{{ include.cat2 }}" %}
     {% if post.categories contains "{{ include.cat3 }}" %}
+	<li>...</li>
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
     {% endif %}
     {% endif %}

@@ -3,7 +3,7 @@ layout: default
 notes: active
 ---
 <h1>{{ page.title }} {% if page.categories contains 'blog' %} ({{ page.date | date: "%d-%m-%Y" }}){% endif %}</h1>
-<span>text</span>
+
 <div class="notebody" style="text-align: justify">
 	{% include vimeoinclude.html %}
 	{{ page.content }}

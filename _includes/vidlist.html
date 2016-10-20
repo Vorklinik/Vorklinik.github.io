@@ -1,6 +1,5 @@
 <ul class="posts">
 {% for post in site.categories.{{ include.cata }} %}
-	<li>...</li>
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

@@ -5,8 +5,6 @@ title: Physik
 <h1>{{ page.title }}</h1>
 
 {% include title.html title="Lernpaket 1: Mathematische Grundlagen"%}
-{% include vidlist.html categA="1-grundlagen"%}
-
 <ul class="posts">
 {% for post in site.categories.1-grundlagen %}
     {% if post.categories contains "1-physik" %}
@@ -17,7 +15,11 @@ title: Physik
 {% endfor %}
 </ul>
 
+{% include title.html title="Lernpaket 2: Mechanik"%}
+{% include vidlist.html categA="1-grundlagen"%}
+
 {% include title.html title="Lernpaket 3: Wärme und Löslichkeit"%}
+
 
 {% include title.html title="Lernpaket 4: Elektrizität, Magnetismus und Wellen"%}
 

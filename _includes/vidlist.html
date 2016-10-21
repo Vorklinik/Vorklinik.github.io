@@ -1,4 +1,5 @@
 </ul>
+{% assign category = include.categories %}
 {% for post in site.categories.[vidcategory]%}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}

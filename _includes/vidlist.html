@@ -1,5 +1,5 @@
 </ul>
-{% for post in {{ vidcategory }} %}
+{% for post in {{ include.vidcategory }} %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

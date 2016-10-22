@@ -1,4 +1,4 @@
 
-{% for post in site.categories.{{ include.category }} %}
+{% for post in {{ include.category }} %}
   {{ post.url }} <br>
 {% endfor %}

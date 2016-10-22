@@ -1,6 +1,5 @@
 <ul class="side-nav">
 
-  {% elsif include.categories != empty %}
   {% assign category = include.categories %}
     {% for post in site.categories.[category] limit:include.entries offset:include.offset %}
       <li><a href="{{ site.url }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>

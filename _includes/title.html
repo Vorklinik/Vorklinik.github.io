@@ -2,7 +2,9 @@
 
 
 {% if site.categories[include.category] == null %}
-  <li> No posts yet</li>
+ <ul class="posts">
+	<li> No posts here yet...</li>
+ </ul>
 {% else %}
  <ul class="posts">
  {% for post in site.categories[include.category] %}

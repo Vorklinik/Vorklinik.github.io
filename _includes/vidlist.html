@@ -1,4 +1,4 @@
 
-{% for post in site.categories.{{ include.listcategory }} %}
-  <li>{{ post.title }}</li>
+{% for post in site.categories.{{ include.category }} %}
+  {{ post.title }} <br>
 {% endfor %}

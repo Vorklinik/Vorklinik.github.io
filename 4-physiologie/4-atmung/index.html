@@ -3,14 +3,4 @@ layout: default
 title: Atmung
 ---
 
-<h1>{{ page.title }}</h1>
-
-<h2>Lernpaket XX: YYY<sup><a href="http://dl.vorklinik.eu/TestDeck.apkg" download="TestDeck.apkg">🔗</a></sup></h2>
-<ul class="posts">
-{% for post in site.categories.physik reversed %}
-	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
-
-<br> <br>
-
+{% include title.html title="Lernpaket 66: Atmung" category="lp18" %}

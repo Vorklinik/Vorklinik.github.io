@@ -11,6 +11,7 @@
 	<div class="container" style="text-align: justify;margin-top:-10px;">
 		{{ content }}
 	</div>
+	{% if page.categories contains grundlagen' %} <br> <br> {% endif %}
 	<footer>
         <ul style="margin-top: -4px;">
 		<li><a href='{{site.baseurl}}/' {% if current[1] == "home" %} style="color:#F38630;"{% endif %}>Home</a></li>

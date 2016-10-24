@@ -4,14 +4,6 @@ title: Anorganische Chemie
 ---
 <h1>{{ page.title }}</h1>
 
-<h2> Lernpaket 6: Atombindungen und Stöchiometrie<sup><a href="http://dl.vorklinik.eu/TestDeck.apkg" download="TestDeck.apkg">🔗</a></sup></h2>
-<ul class="posts">
-{% for post in site.categories.anatomie%}
-    {% if post.categories contains "LP01"%}
-	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endif %}
-{% endfor %}
-
-</ul>
+{% include title.html title="Lernpaket 6: Atombindungen und Stöchiometrie" category="lp01" %}
 
 <br>

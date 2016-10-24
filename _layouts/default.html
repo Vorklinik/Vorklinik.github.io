@@ -7,7 +7,7 @@
 	<body>
 	{% include navmenu.html %}
 		
-	<h1>{{ page.title }}</h1>
+	<h1>{{ page.title }} {% if page.categories contains 'blog' %} ({{ page.date | date: "%d-%m-%Y" }}){% endif %}</h1>
 	<div class="container" style="text-align: justify;margin-top:-10px;">
 		{{ content }}
 	</div>

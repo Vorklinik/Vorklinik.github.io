@@ -2,33 +2,9 @@
 layout: default
 title: Zellbiologie und Genetik
 ---
-<h1>{{ page.title }}</h1>
+{% include title.html title="Lernpaket 9: Zelluläre Strukturen" category="lp09" %}
 
-<h2> Lernpaket 9: Zelluläre Strukturen<sup><a href="http://dl.vorklinik.eu/TestDeck.apkg" download="TestDeck.apkg">🔗</a></sup></h2>
-<ul class="posts">
-{% for post in site.categories.anatomie%}
-    {% if post.categories contains "LP01"%}
-	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endif %}
-{% endfor %}
-</ul>
+{% include title.html title="Lernpaket 10: Mitose, Meiose und der Zellzyklus" category="l10" %}
 
-<h2> Lernpaket 10: Mitose, Meiose und der Zellzyklus<sup><a href="http://dl.vorklinik.eu/TestDeck.apkg" download="TestDeck.apkg">🔗</a></sup></h2>
-<ul class="posts">
-{% for post in site.categories.anatomie%}
-    {% if post.categories contains "LP01"%}
-	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endif %}
-{% endfor %}
-</ul>
+{% include title.html title="Lernpaket 11: Genetik" category="lp11" %}
 
-<h2> Lernpaket 11: Genetik<sup><a href="http://dl.vorklinik.eu/TestDeck.apkg" download="TestDeck.apkg">🔗</a></sup></h2>
-<ul class="posts">
-{% for post in site.categories.anatomie%}
-    {% if post.categories contains "LP01"%}
-	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endif %}
-{% endfor %}
-</ul>
-
-<br>

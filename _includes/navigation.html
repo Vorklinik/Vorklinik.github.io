@@ -2,7 +2,7 @@
             {% if page.categories %}
               {% assign category = page.categories[0] %}
               {% assign unsortedposts = site.categories[category] %}
-              {% assign posts = unsortedposts | sorted:"name" %}
+              {% assign posts = unsortedposts | sorted:"name" | reverse %}
               {% for post in posts %}
                 {% if post.url == page.url %}
                   {% assign post_index0 = forloop.index0 %}

@@ -2,7 +2,7 @@
             {% if page.categories %}
               {% assign category = page.categories[0] %}
               {% assign posts = site.categories[category] %}
-              {% for post in site.posts reversed %}
+              {% for post in posts %}
                 {% if post.url == page.url %}
                   {% assign post_index0 = forloop.index0 %}
                   {% assign post_index1 = forloop.index %}

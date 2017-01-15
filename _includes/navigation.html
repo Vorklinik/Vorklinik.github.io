@@ -3,13 +3,13 @@
               {% assign category = page.categories[0] %}
               {% assign unsortedposts = site.categories[category] %}
 	      {% assign posts = unsortedposts | sort: 'name' %}
-              {% for post in posts %}
+              {% for post in posts reversed %}
                 {% if post.url == page.url %}
                   {% assign post_index0 = forloop.index0 %}
                   {% assign post_index1 = forloop.index %}
                 {% endif %}
               {% endfor %}
-              {% for post in posts  %}
+              {% for post in posts reversed %}
                 {% if post_index0 == forloop.index %}
                   {% assign next_post = post %}
                 {% endif %}

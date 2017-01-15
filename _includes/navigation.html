@@ -1,19 +1,18 @@
 <div class="PageNavigation" style="margin-top:-25px;">
             {% if page.categories %}
               {% assign category = page.categories[0] %}
-              {% assign unsortedposts = site.categories[category] %}
-	      {% assign posts = unsortedposts | sort: 'name' %}
+              {% assign posts = site.categories[category] %}
               {% for post in posts %}
                 {% if post.url == page.url %}
-                  {% assign post_index0 = forloop.index %}
-                  {% assign post_index1 = forloop.index0 %}
+                  {% assign post_index0 = forloop.index0 %}
+                  {% assign post_index1 = forloop.index %}
                 {% endif %}
               {% endfor %}
-              {% for post in posts reversed %}
-                {% if post_index1 == forloop.index %}
+              {% for post in posts %}
+                {% if post_index0 == forloop.index %}
                   {% assign next_post = post %}
                 {% endif %}
-                {% if post_index0 == forloop.index0 %}
+                {% if post_index1 == forloop.index0 %}
                   {% assign prev_post = post %}
                 {% endif %}
               {% endfor %}
@@ -29,4 +28,3 @@
                  <a rel="next" class="next"></a>
             {% endif %}
 </div>
-

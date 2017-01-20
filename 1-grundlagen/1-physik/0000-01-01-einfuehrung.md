@@ -6,4 +6,4 @@ title: "Einführung"
 Text
 
 <br>
-<a rel="next" class="next" href="X">Title of first post &raquo;</a>
+<a align="center" rel="next" class="next" href="X">Title of first post &raquo;</a>

@@ -1,4 +1,5 @@
 <a style="float:right; margin-top: -20px;" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.vorklinik.eu&t=" target="_blank" title="Share on Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i><span class="sr-only"></span></a>
+{% if page.vidid %}
 <br><br>
 <center>
   <iframe id="myiframe" src="https://player.vimeo.com/video/{{ page.vidid }}" width="875" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -14,4 +15,4 @@
 
 
 <H2>Lernziele</H2>
-
+{% endif %}

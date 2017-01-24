@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Medizinische Terminologie - Eine Eifnührung"
+title: "Med. Terminologie - Eine Einführung"
 keywords: ""
 ---
 Text

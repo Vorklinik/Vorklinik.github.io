@@ -6,13 +6,16 @@
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
 	</head>
 	<body>
+
 	{% include navmenu.html %}
-		
+
 	<h1>{{ page.title }} {% if page.categories contains 'blog' %} ({{ page.date | date: "%d-%m-%Y" }}){% endif %}</h1>
 	<div class="container" style="text-align: justify;margin-top:-10px;">
 		{{ content }}
 	</div>
 	<p></p>
+
 	{% include footer.html %}
+
 	</body>
 </html>

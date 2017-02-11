@@ -2,8 +2,20 @@
 layout: default
 title: Wiki
 ---
-<ul class="posts">
-{% for post in site.categories.wiki reversed %}
-	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+{% include title.html title="" category="0-einfuehrung-physik" %}
+
+{% include title.html title="Psychologie" category="1-mathematische-grundlagen" %}
+
+{% include title.html title="Soziologe" category="2-mechanik" %}
+
+{% include title.html title="Physik" %}
+
+{% include title.html title="Chemie" %}
+
+{% include title.html title="Biochemie" %}
+
+{% include title.html title="Physiologie" %}
+
+{% include title.html title="Anatomie" %}
+
+{% include title.html title="Histologie" %}

@@ -97,6 +97,7 @@ img + em {text-align: center; display: block; margin: 0 auto;}
 .flex-container {
   padding: 0;
   margin: 0;
+  margin-right: -20px;
   list-style: none;
   
   display: -webkit-box;

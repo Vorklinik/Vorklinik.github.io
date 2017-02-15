@@ -128,7 +128,7 @@ img + em {text-align: center; display: block; margin: 0 auto;}
 }
 
 .zoom-icon:hover {
-    -webkit-transform: scale3d(1.2, 1.2, 1.2);
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
 }
 .zoom-icon {
     -moz-transition: all .4s ease-out;

@@ -3,7 +3,7 @@ layout: default
 title: Blog
 ---
 <ul class="posts">
-{% for post in site.categories.blog reversed %}
+{% for post in site.categories.blog  %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} ({{ post.date | date: "%d-%m-%Y" }})</a></li>
 {% endfor %}
 </ul>

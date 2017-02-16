@@ -20,13 +20,13 @@ keywords: ""
 - Silbernagel
 
 ## Biochemie
-- X
+- Löffler - Biochemie und Pathobiochemie (2014, 9. Auflage)
 
 ## Chemie
-- Zeeck
+- Zeeck - Chemie für Mediziner (2014, 8. Auflage)
 
 ## Biologie
-- Plattner
+- ???
 
 ## Psychologie/Soziologie
 - Endspurt + Medilearn

@@ -7,6 +7,12 @@ keywords: ""
 - Medilearn
 - Endspurt
 
+## Chemie
+- Zeeck - Chemie für Mediziner (2014, 8. Auflage)
+
+## Biologie
+- ???
+
 ## Anatomie
 - Prometheus - Band 1: Bewegungsapparat
 - Prometheus - Band 2: Innere Organe
@@ -15,20 +21,14 @@ keywords: ""
 - Moore - Embryologie (2013)
 
 ## Histologie
-- Welsch
+- Welsch - Histologie (2014, 4. Auflage)
 
 ## Physiologie
-- Silbernagel
+- Silbernagel - Physiologe (2014, 7. Auflage)
 
 ## Biochemie
 - Löffler - Biochemie und Pathobiochemie (2014, 9. Auflage)
 
-## Chemie
-- Zeeck - Chemie für Mediziner (2014, 8. Auflage)
-
-## Biologie
-- ???
-
 ## Psychologie/Soziologie
-- Endspurt + Medilearn
+- Kein Buch nötig!
 

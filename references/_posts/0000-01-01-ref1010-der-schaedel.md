@@ -1,6 +1,6 @@
 ---
 layout: post_nonav
-title: "Quellen"
+title: "Quellen - Der Schädel"
 ---
 
 - Prometheus: Band 3 (2010, 3. Auflage)

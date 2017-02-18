@@ -2,4 +2,4 @@
 layout: post
 title: "Einführung"
 ---
-Text
+Es ist sinnvoll sich zuerst eine Übersicht über die Anatomie der **knöchernen Strukturen** zu verschaffen. Es folgen die **Gelenke**, die **Muskulatur und ihre Innervation**. Schließlich werden das **Gefäßsystem** und die **Faszienverältnisse** behandelt.

@@ -7,7 +7,7 @@ title: Quellen
 - Prometheus - LernAtlas der Anatomie (Band 1 - 3) 
 - Welsch - Histologie
 - Moore - Embryologie
-- Silbernagel, Physiologie
+- Silbernagel - Physiologie
 - Zeeck - Chemie
 
 ## Skripte

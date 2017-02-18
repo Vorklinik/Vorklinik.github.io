@@ -8,4 +8,4 @@ Es folgt die Anatomie der **knorpeligen Strukturen** (Larynx, Trachea) und der *
 
 Am Kopf und im Hals liegen **exokrine Drüsen**  (Gl. lacrimalis, Gl. parotis, Gl. submandibularis, Gl. lingualis) deren Lage man kennen sollte. Die endokrine **Schilddrüse** (Gl. thyroidea) befindet sich mit der ebenfalls endokrinen **Nebenschilddrüse** (Gl. parathyroidea) im Hals.
 
-In einem separaten Lernpaket werden der **Grenzstrang** (Truncus sympathicus), die **Halsnerven** (Plexus cervicalis) und **Hirnnerven** behandelt die mit ihren Hirnnervenkernen und Austrittsorten am Hirnstamm den Übergang zur Neuroanatomie darstellen.
+In einem separaten Lernpaket werden der **Grenzstrang** (Truncus sympathicus), die **Halsnerven** (Plexus cervicalis) und die **Hirnnerven** behandelt die mit ihren Hirnnervenkernen und Austrittsorten am Hirnstamm den Übergang zur Neuroanatomie darstellen.

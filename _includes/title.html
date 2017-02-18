@@ -1,14 +1,11 @@
 <h2>{{ include.title }}</h2>
 
-
+<ul class="posts">
 {% if site.categories[include.category] == null %}
- <ul class="posts">
 	<li> No posts : (</li>
- </ul>
 {% else %}
- <ul class="posts">
  {% for post in site.categories[include.category] reversed %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
  {% endfor %}
- </ul>
 {% endif %}
+ </ul>

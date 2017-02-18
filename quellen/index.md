@@ -10,6 +10,7 @@ title: Quellen
 - Silbernagel, Physiologie
 - Endspurt - Skripte der Vorklinik
 - Medi-Learn - Skriptenreihe
+- Zeeck - Chemie
 
 ## Online
 - http://www.mhm.uni-mainz.de/

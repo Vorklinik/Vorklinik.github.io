@@ -4,6 +4,9 @@
 
 {% if page.refs %}
 <a href="{{ page.refs }}" style="float:right;margin-left: 10px; color:grey" target="_blank"><i class="fa fa-book fa-1x zoom-icon"></i></a>
+{% else %}
+<a href="{{ page.refs }}" style="float:right;margin-left: 10px; color:white;cursor:default" target="_blank"><i class="fa fa-book fa-1x zoom-icon"></i></a>
+{% endif %}
 {% endif %}
 
 {% if page.image %}

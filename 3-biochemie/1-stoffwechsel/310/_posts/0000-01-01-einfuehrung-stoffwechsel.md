@@ -12,6 +12,6 @@ Wir beginnen mit der Besprechung des Stoffwechsels der **Aminosäuren**, den Gru
 
 Der Stoffwechsel der **Kohlenhydrate** schließt die aerobe und anaerobe Glykolyse (Abbau von Glucose), die Gluconeogenese (Synthese von Glucose) und den Pentosephosphatweg (Kohlenhydratverwertung zur Regeneration des Reduktionsmittels NADPH) ein. Danach besprechen wir den **Cori-Zyklus** (Abbau von Lactat). Außerdem ist die Verwertung (Abbau, Umbau) und die Synthese der Discaccharide **Lactose und Galactose** sowie des Monosaccharids **Fructose** hier relevat. Glucose kann in **Glykogen** gespeichert werden (Glykogensynthese) und bei so bei Bedarf durch Glykogenabbau Glykogenolyse zur Verfügung gestellt werden.
 
-Das letzte Lernpaket behandelt die Integration und zur Übersicht die Steuerung der behandelten Stoffwechselwege. Hier werden besonders die Endoxidation (**Pyruvatdehdrogenase**, **Citratzyklus** **Atmungskette**) zur Energiegewinnung (ATP) sowie die Rolle von **Insulin** (Energiemangel) und **Glucagon** (Energieüberschuss) behandelt.
+Das letzte Lernpaket behandelt die Integration und zur Übersicht die Steuerung der behandelten Stoffwechselwege. Hier werden besonders die Endoxidation (**Pyruvatdehdrogenase**, **Citratzyklus** **Atmungskette**) zur aeroben Energiegewinnung (ATP) sowie die Rolle von **Insulin** (Energiemangel) und **Glucagon** (Energieüberschuss) behandelt.
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Einführung"
 ---
-Dieses Kapitel behandelt den Stoffwechsel des Menschen. Dies umfasst auch die beteiligten Enzyme und Coenzyme, die aber im nächsten Kapitel nochmals im Detail besprochen werden. Die Verdauungsprozesse (Resorption von Kohlenhydrate, Aminosäuren, Fettsäuren, Nukleotide, Cholesterin, ...) und die Hormonsynthese sind Themen der Physiologie.
+Dieses Kapitel behandelt den Stoffwechsel des Menschen. Dies umfasst auch die beteiligten Enzyme und Coenzyme, die aber im nächsten Kapitel nochmals im Detail besprochen werden. Der Häm-Stoffwechsel ist im Kapitel "Blut und Gewebe" zu finden. Die Verdauungsprozesse (Resorption von Kohlenhydrate, Aminosäuren, Fettsäuren, Nukleotide, Cholesterin, ...) und die Hormonsynthese sind Themen der Physiologie.
 
 Wir beginnen mit der Besprechung des Stoffwechsels der **Aminosäuren**. Dies bezieht ihre chemische Struktur, ihre Synthese, ihre Verwertung und ihre Umwandlung (Transaminierung) ein. Beim Abbau von Aminosäuren fällt cytotoxischer Ammoniak an der im **Alanin-Zyklus** (Bindung in Alanin und Glutamat) und **Harnstoffzyklus** (Synthese von Harnstoff) abgebaut werden kann um eine Ausscheidung zu ermöglichen. Am Ende des Lernpakets behandeln wir die Struktur, die Synthese, und den Abbau der **Proteine**.
 

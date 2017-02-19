@@ -8,4 +8,8 @@ Wir beginnen mit der Besprechung des Stoffwechsels der **Aminosäuren**. Dies be
 
 Ähnlich verfahren wir mit dem Stoffwechsel der Lipide. Nachdem wir die Struktur der verschiedenen Lipide (Phospholipide, Triacyglycerine, Glykolipide, Isoprenoide) besprochen haben wenden wir uns  den **Fettsäuren** zu. Wie werden sie verwertet (Lipolyse) und synthetisiert (De-novo-Fettsäuresynthese). **Triacylglycerine** sind die Speicherform der Fettsäuren in Fettzellen. Auch hier ist also ihr Abbau (β-Oxidation) und ihre Synthese (Lipogenese) relevant. Nun bearbeiten wir die Synthese und den Abbau von **Cholesterin**. Schließlich beenden wir das Lernpacket mit einer Besprechung des Transports und der Verteilung von Fettsäuren und Cholesterin durch **Lipoproteine** im Blut.
 
-Der Stoffwechsel der **Kohlenhydrate** beinhaltet die Glykolyse (Abbau von Glucose), die Gluconeogenese (Synthese von Glucose) den Pentosephosphatweg (Verwertung von Kohlenhydrate zur Regeneration des Reduktionsmittels NADPH). Außerdem ist die Verwertung (Abbau, Umbau) und die Synthese von den Discacchariden **Lactose, Galactose** sowie des Monosaccharids **Fructose** hier releavt.
+Der Stoffwechsel der **Kohlenhydrate** schließt die Glykolyse (Abbau von Glucose), die Gluconeogenese (Synthese von Glucose) und den Pentosephosphatweg (Verwertung von Kohlenhydrate zur Regeneration des Reduktionsmittels NADPH) ein. Außerdem ist die Verwertung (Abbau, Umbau) und die Synthese von den Discacchariden **Lactose, Galactose** sowie des Monosaccharids **Fructose** hier releavt.
+
+Das letzte Lernpaket behandelt die Integration und und die Steuerung der behandelten Stoffwechselwege. Hier werden besonders der die Endoxidation (**Pyruvatdehdrogenase**, **Citratzyklus** **Atmungskette**) sowie die Rolle von **Insulin** (Energiemangel) und **Glucagon** (Energieüberschuss) behandelt.
+
+

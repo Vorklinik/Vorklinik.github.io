@@ -2,7 +2,7 @@
 layout: post
 title: "Einführung"
 ---
-Dieses Kapitel behandelt den Stoffwechsel des Menschen. Dies umfasst auch die beteiligten Enzyme und Coenzyme, die aber im nächsten Kapitel nochmals im Detail besprochen werden. Die Verdauungsprozesse sind ein Lernpaket der Physiologie.
+Dieses Kapitel behandelt den Stoffwechsel des Menschen. Dies umfasst auch die beteiligten Enzyme und Coenzyme, die aber im nächsten Kapitel nochmals im Detail besprochen werden. Die Verdauungsprozesse (Resorption von Kohlenhydrate, Aminosäuren, Fettsäuren, Cholesterin, ...) sind ein Lernpaket der Physiologie.
 
 Wir beginnen mit der Besprechung des Stoffwechsels der **Aminosäuren**. Dies bezieht ihre chemische Struktur, ihre Synthese, ihre Verwertung und ihre Umwandlung z.B. in biogene Amine ein. Beim Abbau von Aminosäuren fällt cytotoxischer Ammoniak an der effektiv im **Harnstoffzyklus** abgebaut werden kann. Am Ende des Lernpakets behandelt wir die Struktur, die Synthese, und den Abbau der **Proteine**.
 

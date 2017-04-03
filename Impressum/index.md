@@ -3,7 +3,7 @@ layout: default
 title: Impressum und rechtliche Hinweise
 ---
 ## Impressum
-Text
+Email: admin@vorklinik.eu
 
 ## Rechtliche Hinweise
 Text

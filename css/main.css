@@ -139,6 +139,7 @@ img + em {text-align: center; display: block; margin: 0 auto;}
 
 
      div#banner { 
+       height: 25px; 
        position: absolute; 
        top: 0; 
        left: 0; 
@@ -151,6 +152,4 @@ img + em {text-align: center; display: block; margin: 0 auto;}
        padding: 10px; 
        border: 1px solid #000;
      }
-     div#main-content { 
-       padding-top: 70px;
-    }
+

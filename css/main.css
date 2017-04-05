@@ -143,13 +143,7 @@ img + em {text-align: center; display: block; margin: 0 auto;}
        position: absolute; 
        top: 0; 
        left: 0; 
-       background-color: #69d2e7; 
+       background-color: #a7dbdb; 
        width: 100%; 
-     }
-     div#banner-content { 
-       width: 800px; 
-       margin: 0 auto; 
-       padding: 10px; 
-       border: 1px solid #000;
      }
 

@@ -136,3 +136,11 @@ img + em {text-align: center; display: block; margin: 0 auto;}
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
 }
+
+div#banner { 
+       position: absolute; 
+       top: 0; 
+       left: 0; 
+       background-color: #DDEEEE; 
+       width: 100%; 
+}

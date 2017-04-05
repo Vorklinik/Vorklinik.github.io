@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Einführungsvideo (Version 1)"
+title: "Einführungsvideo - 1. Version"
 keywords: ""
 ---
 [Platzhalter Video]

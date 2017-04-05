@@ -8,7 +8,7 @@
    <li><a href='{{site.baseurl}}/1-grundlagen/1-physik' {% if current[1] contains "6-pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
    <li><a href='{{site.baseurl}}/1-grundlagen/1-physik' {% if current[1] contains "7-pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
 </ul>	
-<ul class="flex-container"; style="font-size:60%; margin-bottom: 1em;">
+<ul class="flex-container"; style="font-size:60%; margin-bottom: -1em;">
 {% if current[1] contains "1-grundlagen" or current.size < 1  or current[1] contains "impressum" or current[1] contains "blog" or current[1] contains "notes" or current[1] contains "images" or current[1] contains "quellen"  or current[1] contains "home" %}
          <ul><a href='{{site.baseurl}}/1-grundlagen/1-physik'; {% if current[2] contains "1-physik" or current.size < 1  %} style="color:#F38630;{% endif %}">Physik</a></ul>
          <ul><a href='{{site.baseurl}}/1-grundlagen/2-anorganische-chemie'; {% if current[2] contains "2-anorganische-chemie" %} style="color:#F38630;{% endif %}">Anorganische Chemie</a></ul>

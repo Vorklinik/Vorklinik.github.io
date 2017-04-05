@@ -137,10 +137,6 @@ img + em {text-align: center; display: block; margin: 0 auto;}
     transition: all .3s ease-out;
 }
 
-* {
-       margin: 0; 
-       padding: 0;
-     }
 
      div#banner { 
        position: absolute; 

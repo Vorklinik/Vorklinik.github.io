@@ -17,10 +17,8 @@ title: Quellen
 - [Medi-Learn - Skriptenreihe](https://www.amazon.de/Human-Project-Special-2015-Skriptenreihe/dp/3956580206/ref=sr_1_1?s=books&ie=UTF8&qid=1491555896&sr=1-1&keywords=medi+learn)
 
 ## Programme und Onlineinhalte
-- https://examenonline.thieme.de
-- http://www.kreuzenonline.de/_kreuzen
 - http://www.mhm.uni-mainz.de/
 - https://www.drnajeeblectures.com/
 - https://www.drawittoknowit.com/
-- http://de.visiblebody.com/atlas-pc-overview/
 - http://armandoh.org
+- https://examenonline.thieme.de

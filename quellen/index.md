@@ -20,8 +20,8 @@ title: Quellen
 - [Medi-Learn - Skriptenreihe](https://www.amazon.de/Human-Project-Special-2015-Skriptenreihe/dp/3956580206/ref=sr_1_1?s=books&ie=UTF8&qid=1491555896&sr=1-1&keywords=medi+learn)
 
 ## Programme und Onlineinhalte
-- [[http://www.mhm.uni-mainz.de/]]
-- https://www.drnajeeblectures.com/
-- https://www.drawittoknowit.com/
-- http://armandoh.org
-- https://examenonline.thieme.de
+- [http://www.mhm.uni-mainz.de](http://www.mhm.uni-mainz.de)
+- [https://www.drnajeeblectures.com](https://www.drnajeeblectures.com)
+- [https://www.drawittoknowit.com](https://www.drawittoknowit.com)
+- [http://armandoh.org](http://armandoh.org)
+- [https://examenonline.thieme.de](https://examenonline.thieme.de)

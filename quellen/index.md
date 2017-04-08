@@ -19,7 +19,7 @@ title: Quellen
 - [Endspurt - Skripte der Vorklinik](https://www.amazon.de/Endspurt-Vorklinik-Skripten-f%C3%BCrs-Physikum/dp/3132409839/ref=sr_1_1?s=books&ie=UTF8&qid=1491555833&sr=1-1&keywords=Endspurt+Vorklinik%3A+Set)
 - [Medi-Learn - Skriptenreihe](https://www.amazon.de/Human-Project-Special-2015-Skriptenreihe/dp/3956580206/ref=sr_1_1?s=books&ie=UTF8&qid=1491555896&sr=1-1&keywords=medi+learn)
 
-## Programme und Onlineinhalte
+## Onlineinhalte
 - [http://www.mhm.uni-mainz.de](http://www.mhm.uni-mainz.de)
 - [https://www.drnajeeblectures.com](https://www.drnajeeblectures.com)
 - [https://www.drawittoknowit.com](https://www.drawittoknowit.com)

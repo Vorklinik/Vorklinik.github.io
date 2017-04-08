@@ -4,12 +4,8 @@ notes: active
 ---
 <div class="notebody" style="text-align: justify">
 	{% include vimeoinclude.html %}
+	{% include icons.html %}
 	
-	{% if page.anki %}
-<a href="https://ankiweb.net/shared/info/" style="float:right;margin-left: 10px; color:grey" target="_blank" download><i class="fa fa-list-alt fa-1x zoom-icon"></i></a>
-{% else %}
-<a style="float:right;margin-left: 10px; color:black;cursor:default" target="_blank" download><i class="fa fa-list-alt fa-1x zoom-icon"></i></a>
-{% endif %}
 	
 	
 	{{ page.content }}

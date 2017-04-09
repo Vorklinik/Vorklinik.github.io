@@ -13,7 +13,7 @@ title: Quellen
 - [Silbernagl - Physiologie](https://www.amazon.de/Physiologie-Hans-Christian-Pape/dp/313796007X/ref=sr_1_1?s=books&ie=UTF8&qid=1491555967&sr=1-1&keywords=Silbernagel)
 - [Welsch - Histologie](https://www.amazon.de/Lehrbuch-Histologie-Ulrich-Welsch/dp/3437444336/ref=sr_1_1?s=books&ie=UTF8&qid=1491555922&sr=1-1&keywords=Welsch+-+Histologie)
 - [Prometheus - LernAtlas der Anatomie (Band 1 - 3)](https://www.amazon.de/PROMETHEUS-LernPaket-Anatomie-LernAtlas/dp/3131601876/ref=sr_1_fkmr0_2?ie=UTF8&qid=1491555711&sr=8-2-fkmr0&keywords=rometheus+-+LernAtlas+der+Anatomie)
-- <a style="font-size: 1.5em;"{% include b-suerbaum-2016A8.html %} 
+- [Suerbaum - Medizinische Mikrobiologie und Infektiologie (8. Auflage, 2016)](http://amzn.to/2oV2kdl)
 - [Aktories  - Allgemeine und spezielle Pharmakologie und Toxikologie](https://www.amazon.de/Allgemeine-spezielle-Pharmakologie-Toxikologie-Elsevier-Portal/dp/3437425234/ref=sr_1_4?s=books&ie=UTF8&qid=1491668056&sr=1-4)
 - [Böcker - Pathologie](https://www.amazon.de/Pathologie-Mit-StudentConsult-Zugang-Werner-B%C3%B6cker/dp/3437423851/ref=pd_bxgy_14_img_2?_encoding=UTF8&psc=1&refRID=56S4E8NRHPBHRTQJ645A)
 - <i>[Moore - Embryologie](https://www.amazon.de/Embryologie-Entwicklungsstadien-Fr%C3%BChentwicklung-Organogenese-Elsevier-Portal/dp/3437411136/ref=sr_1_1?s=books&ie=UTF8&qid=1491555943&sr=1-1&keywords=Moore+-+Embryologie)</i>

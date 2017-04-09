@@ -1,3 +1,3 @@
 {% if page.book %}
-<a style="text-decoration: underline;color:black;"{% {{ page.book }}.html %}{% include {{ page.pageref }}.html %}
+<a style="text-decoration: underline;color:black;"{% {{ page.book }}.html %} {{ page.pageref }}
 {% endif %}

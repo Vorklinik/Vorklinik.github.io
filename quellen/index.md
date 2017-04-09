@@ -20,7 +20,7 @@ title: Quellen
 - <i>[Trepel - Neuroanatomie](https://www.amazon.de/Neuroanatomie-Struktur-Funktion-mit-StudentConsult-Zugang/dp/3437412876/ref=sr_1_1?ie=UTF8&qid=1491556284&sr=8-1&keywords=neuroanatomie)</i>
 - <i>[Kandel - Principles of Neural Science](https://www.amazon.de/Principles-Neural-Science-Kandel/dp/0071390111/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1491729677&sr=1-1)</i>
 - <i>[Alberts - Molecular Biology of the Cell](https://www.amazon.de/Molecular-Biology-Cell-Bruce-Alberts/dp/0815344643/ref=pd_sim_14_2?_encoding=UTF8&psc=1&refRID=MHDQQA3XSZ18PQJP26R5)</i>
-- <a>{% include b-suerbaum-2016A8.html %}
+- <a{% include b-suerbaum-2016A8.html %}
 
 ## Onlineinhalte
 - [http://www.mhm.uni-mainz.de](http://www.mhm.uni-mainz.de)

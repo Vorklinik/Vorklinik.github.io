@@ -10,6 +10,6 @@ refpages: "S. 175, 425-445, 713-715"
 ---
 - Was sind Bakteriophagen?
 - Wie sind sie aufgebaut?
-- Was sind latente Phagen? Wie unterscheidet sich der lysogene Zyklus (Lysogenie) vom lytischen Zyklus (Lysogenie) ?
+- Was sind latente Phagen? Wie unterscheidet sich der lysogene Zyklus (Lysogenie) vom lytischen Zyklus (Lyse)?
 - Was bezeichnet man als Transduktion?
 

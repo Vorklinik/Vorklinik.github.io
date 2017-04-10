@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blutgruppen: Das AB0-System und das Rhesussystem"
-keywords: "Krankheitserreger Toxin Transposon Prion  Virus Bakteriophage Bakterium Parasit Fungus"
+keywords: "Blutgruppen AB0-System Rhesussystem Antigene Antikörper D-Antigen Blutgruppeninkompatibilität Morbus_haemolyticus_neonatorum Fetale_Erythroblastose"
 vidid_vim: 20160904033249
 vidid_yt: 20160904033249
 anki: "nourl"

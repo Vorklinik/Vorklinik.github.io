@@ -3,7 +3,7 @@ layout: post
 title: "Bakteriophagen, Lysogenie und Transduktion"
 keywords: "Virus Phage Bakteriophage Krankheitserreger Infektion Immunsystem Transduktion"
 vidid_vim: 20160904033249
-vidid_yt: 20160904033249
+vidid_yt: i47BxubjRZo
 anki: "nourl"
 book: b-suerbaum-2016A8
 refpages: "S. 175, 425-445, 713-715"

@@ -158,7 +158,7 @@ img + em {text-align: center; display: block; margin: 0 auto;}
 }
 .responsive-container,
 	.responsive-container iframe {
-	max-width: 1280px;
+	max-width: 875px;
 	max-height: 720px;
 }
 .responsive-container iframe {

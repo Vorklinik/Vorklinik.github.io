@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Das Humane Immundefizienz-Virus (HIV), ein Retrovirus"
+layout: post_noncmt_nonav
+title: "Info: 151-0101a"
 ---
 # Prerequisits
 Text

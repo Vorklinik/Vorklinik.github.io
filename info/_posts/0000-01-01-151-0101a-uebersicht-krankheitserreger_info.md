@@ -2,11 +2,11 @@
 layout: post_noncmt_nonav
 title: "Übersicht: Krankheitserreger"
 ---
-# Literatur
+## Literatur
 Text
-# Prerequisits
+## Prerequisits
 Text
-# Corrections
+## Corrections
 Text
-# Past Versions
+## Past Versions
 Text

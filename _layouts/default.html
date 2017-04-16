@@ -12,7 +12,7 @@
 
 	{% include navmenu.html %}
 
-	<h1>{% if page.backurl %}<i class="fa fa-arrow-left" href="{{ page.backurl }}"style="color:grey" aria-hidden="true"></i> {% endif %}{{ page.title }} {% if page.categories contains 'blog' %} ({{ page.date | date: "%d-%m-%Y" }}){% endif %}</h1>
+	<h1>{% if page.backurl %}<i class="fa fa-arrow-left" href="{{ page.backurl }}" style="color:grey" aria-hidden="true"></i> {% endif %}{{ page.title }} {% if page.categories contains 'blog' %} ({{ page.date | date: "%d-%m-%Y" }}){% endif %}</h1>
 	<div class="container" style="text-align: justify;margin-top:-10px;">
 		{{ content }}
 	</div>

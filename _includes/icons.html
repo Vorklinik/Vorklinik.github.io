@@ -10,6 +10,5 @@
 <a href="https://app.box.com/v/vorklinik-anki/file/{{ page.anki }}" style="float:right;margin-left: 10px; color:grey" target="_blank" download><i class="fa fa-list-alt fa-1x zoom-icon"></i></a>
 {% endif %}
 
-{% if page.anki %}
-<a href="{{site.baseurl}}/info/{{page.url | remove:'.html'| split:'/' | last }}" style="float:right;margin-left: 10px; color:grey" target="_blank" download><i class="fa fa fa-question fa-1x zoom-icon"></i></a>
-{% endif %}
+<a href="{{site.baseurl}}/info/{{page.url | remove:'.html'| split:'/' | last }}" style="float:right;margin-left: 10px; color:grey" target="_blank"><i class="fa fa fa-question fa-1x zoom-icon"></i></a>
+

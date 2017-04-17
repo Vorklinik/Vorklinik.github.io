@@ -31,10 +31,6 @@ Nicht vorhanden.
 ## Aufnahmedatum
 - 01.01.2017
 
-## ZielURLs
-- Vimeo:
-- Youtube:
-
 ## Überarbeitete Versionen
 
 - Keine

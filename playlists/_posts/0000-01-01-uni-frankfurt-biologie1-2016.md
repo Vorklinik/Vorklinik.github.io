@@ -1,5 +1,5 @@
 ---
-layout: post_noncmt_nonav
+layout: post_nonav
 title: "Biologie 1 - Universität Frankfurt (2016)"
 ---
 - Video 1

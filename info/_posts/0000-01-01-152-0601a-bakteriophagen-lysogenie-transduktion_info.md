@@ -1,10 +1,10 @@
 ---
 layout: post_noncmt_nonav
-title: "Informationen"
+title: "Informationen (152-0601a)"
 backurl: "http://vorklinik.eu/1-grundlagen/5-mikrobiologie/152/152-0601a-bakteriophagen-lysogenie-transduktion"
 ---
 ## Überschrift
-- Bakteriophagen, Lysogenie und Transduktion (152-0601a)
+- Bakteriophagen, Lysogenie und Transduktion
 
 ## Literatur
 

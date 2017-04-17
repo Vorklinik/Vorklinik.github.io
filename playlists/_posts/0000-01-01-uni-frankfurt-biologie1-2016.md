@@ -1,6 +1,6 @@
 ---
 layout: post_nonav
-title: "Biologie 1 - Universität Frankfurt (2016)"
+title: "Universität Frankfurt: Biologie 1 (2016)"
 ---
 - Video 1
 - Video 2

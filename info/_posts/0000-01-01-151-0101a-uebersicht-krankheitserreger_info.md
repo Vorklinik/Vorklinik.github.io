@@ -15,7 +15,7 @@ backurl: "http://vorklinik.eu/1-grundlagen/5-mikrobiologie/151/151-0101a-uebersi
 
 - Keine
 
-## Übungsaufgaben
+## Übungsfragen
 
 - Keine
 
@@ -26,6 +26,9 @@ backurl: "http://vorklinik.eu/1-grundlagen/5-mikrobiologie/151/151-0101a-uebersi
 ## Transkript
 
 Nicht vorhanden.
+
+## Aufnahmedatum
+- 01.01.2017
 
 ## Überarbeitete Versionen
 

@@ -10,7 +10,7 @@ backurl: "http://vorklinik.eu/1-grundlagen/5-mikrobiologie/152/152-0601a-bakteri
 
 - Keine
 
-## Korrekturen
+## Ausstehende Korrekturen
 
 - Keine
 
@@ -26,10 +26,6 @@ backurl: "http://vorklinik.eu/1-grundlagen/5-mikrobiologie/152/152-0601a-bakteri
 
 - Keine
 
-## Transkript
-
-Nicht vorhanden.
-
 ## Aufnahmedatum
 - 01.01.2017
 
@@ -37,6 +33,9 @@ Nicht vorhanden.
 
 - Keine
 
+## Transkript
+
+Nicht vorhanden.
 
 
 

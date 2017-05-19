@@ -4,4 +4,4 @@ layout: post_noncmt_nonav
 backurl: "http://vorklinik.eu/1-grundlagen/5-mikrobiologie/152/152-0701a-hiv-retrovirus"
 ---
 
-![My helpful screenshot](https://raw.githubusercontent.com/Vorklinik/Images/master/IMG_20170518.jpg)
+![My helpful screenshot](https://raw.githubusercontent.com/Vorklinik/Files/master/IMG_20170518.jpg)

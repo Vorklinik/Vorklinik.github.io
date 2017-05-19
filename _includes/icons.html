@@ -1,7 +1,7 @@
 <a href="{{site.baseurl}}/leitfragen/{{page.url | remove:'.html'| split:'/' | last }}_question" style="float:right;margin-left: 10px; color:grey"><i class="fa fa fa-cogs fa-1x zoom-icon"></i></a>
 
 {% if page.anki %}
-<a href="https://f001.backblazeb2.com/file/vorklinik-files/{{ page.anki }}" style="float:right;margin-left: 10px; color:grey" target="_blank" download><i class="fa fa-list-alt fa-1x zoom-icon"></i></a>
+<a href="{% include filesurl.html %}{{ page.anki }}" style="float:right;margin-left: 10px; color:grey" target="_blank" download><i class="fa fa-list-alt fa-1x zoom-icon"></i></a>
 {% endif %}
 
 <a href="{{site.baseurl}}/images/{{page.url | remove:'.html'| split:'/' | last }}_img" style="float:right;margin-left: 10px; color:grey"><i class="fa fa fa-pencil fa-1x zoom-icon"></i></a>

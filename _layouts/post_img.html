@@ -4,6 +4,7 @@ notes: active
 ---
 <div class="notebody" style="text-align: justify">
 	<p>
+	{% assign filename = page.url | replace: '.html', '' | split: '/'  | last %}
 	<img src="{% include filesurl.html %}{{ page.imagename }}">
 	</p>
 </div>

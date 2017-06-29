@@ -1,4 +1,6 @@
 {% assign filename = page.url | replace: '.html', '' | split: '/'  | last %}
-<a href="{% include filesurl.html %}{{ filename }}_anki.apkg" style="float:right;margin-left: 10px; color:grey" download><i class="fa fa-list-alt fa-1x zoom-icon"></i></a>
 
 <a href="{{site.baseurl}}/images/{{page.url | remove:'.html'| split:'/' | last }}_img" style="float:right;margin-left: 10px; color:grey"><i class="fa fa fa-pencil fa-1x zoom-icon"></i></a>
+
+<a href="{% include filesurl.html %}{{ filename }}_anki.apkg" style="float:right;margin-left: 10px; color:grey" download><i class="fa fa-list-alt fa-1x zoom-icon"></i></a>
+

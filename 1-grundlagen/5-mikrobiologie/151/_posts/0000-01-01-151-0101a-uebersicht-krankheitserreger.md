@@ -2,7 +2,6 @@
 layout: post
 title: "Übersicht: Krankheitserreger"
 vidid_yt: C_bJzZdctLA
-anki: "nourl"
 book: b-suerbaum-2016A8
 refpages: "S. "
 ---

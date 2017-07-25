@@ -2,6 +2,7 @@
             {% if page.categories %}
               {% assign category = page.categories[1] %}
               {% assign unsortedposts = site.categories[category] %}
+	          {% assign unsortedpostsX = unsortedposts | remove: "_img" %}
               {% assign posts = unsortedposts | sorted:"name" %}
               {% for post in posts %}
                 {% if post.url == page.url %}

@@ -1,3 +1,4 @@
 {% if post.url contains '_img' %}
-<a href="{{ page.backurl }}"><i class="fa fa-arrow-left"  style="color:#F38630" aria-hidden="true"></i></a> 
+{% assign targeturl = page.url | replace: '._img', '' %}
+<a href="{{ targeturl }}"><i class="fa fa-arrow-left"  style="color:#F38630" aria-hidden="true"></i></a> 
 {% endif %}

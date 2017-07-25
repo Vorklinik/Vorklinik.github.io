@@ -6,9 +6,9 @@
 {% else %}
  {% for post in site.categories[include.category] reversed %}
 	{% assign filename = post.url | replace: '.html', '' | split: '/'  | last %}
-	{% unless filename contains '_img' %}
+	{% unless post.url contains '_img' %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	{% endif %}
+	{% endunless %}
  {% endfor %}
 {% endif %}
  </ul>

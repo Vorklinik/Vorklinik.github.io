@@ -5,7 +5,9 @@
 	<li> No posts : (</li>
 {% else %}
  {% for post in site.categories[include.category] reversed %}
+	{% if post == {{ page.layout }} %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endif %}
  {% endfor %}
 {% endif %}
  </ul>

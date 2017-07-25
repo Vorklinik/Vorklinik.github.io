@@ -5,7 +5,8 @@
 	<li> No posts : (</li>
 {% else %}
  {% for post in site.categories[include.category] reversed %}
-	{% if a == a %}
+	{% assign filename = page.url | replace: '.html', '' | split: '/'  | last %}
+	{% if filename contains '_img' %}
 	<li> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	{% endif %}
  {% endfor %}

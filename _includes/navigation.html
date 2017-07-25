@@ -1,7 +1,7 @@
 <div class="PageNavigation" style="margin-top:-25px;">
             {% if page.categories %}
               {% assign category = page.categories[1] %}
-              {% assign unsortedposts = site.categories[category post] %}
+              {% assign unsortedposts = site.categories[category] %}
               {% assign posts = unsortedposts | sorted:"name" %}
               {% for post in posts %}
                 {% if post.url == page.url %}

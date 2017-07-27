@@ -1,10 +1,10 @@
 <div class="PageNavigation" style="margin-top:-25px;">
             {% if page.categories %}
               {% assign category = page.categories[1] %}
-              {% assign unsortedposts = site.categories[category] %}
+              {% assign unsortedposts = site.categories[category] | where: "tag", "post" %}
 	
-              {% assign posts = unsortedpostsX | sorted:"name" %}
-              {% for post in posts | where: "tag", "post" %}
+              {% assign posts = unsortedposts | sorted:"name" %}
+              {% for post in posts %}
                 {% if post.url == page.url %}
                   {% assign post_index0 = forloop.index0 %}
                   {% assign post_index1 = forloop.index %}

@@ -4,7 +4,7 @@
               {% assign unsortedposts = site.categories[category] %}
 	
               {% assign posts = unsortedpostsX | sorted:"name" %}
-              {% for post in posts %}
+              {% for post in posts | where: "tag", "post" %}
                 {% if post.url == page.url %}
                   {% assign post_index0 = forloop.index0 %}
                   {% assign post_index1 = forloop.index %}

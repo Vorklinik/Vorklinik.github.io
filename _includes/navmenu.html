@@ -5,7 +5,6 @@
 <nav>
    
 <ul class="flex-container"; style="font-size:175%">
-   <li>{% cnames %}</li>
    <li><a href='{{site.baseurl}}/D/11' {% if cnames == "1" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>
    <li><a href='{{site.baseurl}}/D/21' {% if cnames == "2" %} style="color:#F38630;"{% endif %}>Anatomie und Histologie</a></li>
    <li><a href='{{site.baseurl}}/D/31' {% if current[1] contains "3-biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
@@ -72,7 +71,5 @@
          <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Andere Arzneimittel</a></ul>
 {% endif %}
 
-
-</ul>
 
 </nav>

@@ -8,10 +8,10 @@
    <li>{% cnames %}</li>
    <li><a href='{{site.baseurl}}/D/11' {% if cnames == "1" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>
    <li><a href='{{site.baseurl}}/D/21' {% if cnames == "2" %} style="color:#F38630;"{% endif %}>Anatomie und Histologie</a></li>
-   <li><a href='{{site.baseurl}}/3-biochemie/1-stoffwechsel' {% if current[1] contains "3-biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
-   <li><a href='{{site.baseurl}}/4-physiologie/1-zellphysiologie' {% if current[1] contains "4-physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
-   <li><a href='{{site.baseurl}}/1-grundlagen/1-physik' {% if current[1] contains "6-pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
-   <li><a href='{{site.baseurl}}/1-grundlagen/1-physik' {% if current[1] contains "7-pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
+   <li><a href='{{site.baseurl}}/D/31' {% if current[1] contains "3-biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
+   <li><a href='{{site.baseurl}}/D/41' {% if current[1] contains "4-physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>
+   <li><a href='{{site.baseurl}}/D/51' {% if current[1] contains "6-pharmakologie" %} style="color:#F38630;"{% endif %}>Pharmakologie</a></li>
+   <li><a href='{{site.baseurl}}/D/61' {% if current[1] contains "7-pathologie" %} style="color:#F38630;"{% endif %}>Pathologie</a></li>
 </ul>	
 
 
@@ -26,8 +26,8 @@
 {% endif %}
 
 {% if current[1] contains "anatomie" %}
-         <ul><a href='{{site.baseurl}}/2-anatomie/1-embryologie'; {% if current[2] contains "1-embryologie" or current.size < 1  %} style="color:#F38630;{% endif %}">Embryologie</a></ul>
-         <ul><a href='{{site.baseurl}}/2-anatomie/2-extremitaeten'; {% if current[2] contains "2-extremitaeten" %} style="color:#F38630;{% endif %}">Obere und untere Extremität</a></ul>
+         <ul><a href='{{site.baseurl}}/D/21'; {% if current[2] contains "1-embryologie" or current.size < 1  %} style="color:#F38630;{% endif %}">Embryologie</a></ul>
+         <ul><a href='{{site.baseurl}}/D/22'; {% if current[2] contains "2-extremitaeten" %} style="color:#F38630;{% endif %}">Obere und untere Extremität</a></ul>
          <ul><a href='{{site.baseurl}}/2-anatomie/3-rumpf-und-innere-organe'; {% if current[2] contains "3-rumpf-und-innere-organe" %} style="color:#F38630;{% endif %}">Rumpf und innere Organe</a></ul>
          <ul><a href='{{site.baseurl}}/2-anatomie/4-kopf-und-hals'; {% if current[2] contains "4-kopf-und-hals" %} style="color:#F38630;{% endif %}">Kopf und Hals</a></ul>
          <ul><a href='{{site.baseurl}}/2-anatomie/5-neuroanatomie'; {% if current[2] contains "5-neuroanatomie" %} style="color:#F38630;{% endif %}">Neuroanatomie</a></ul>

@@ -15,7 +15,7 @@
 
 
 <ul class="flex-container"; style="font-size:60%; margin-bottom: -1.5em;">
-{% if cnameshort == "1" or current.size < 1  or current[1] contains "impressum" or current[1] contains "blog" or current[1] contains "quellen" or current[1] contains "playlists" or current[1] contains "info"  or current[1] contains "home" or current[1] contains "images" or current[1] contains "leitfragen" %}
+{% if cnameshort == "1" or current.size < 1  or current[1] contains "impressum" or current[1] contains "blog" or cnameshort == "9" or current[1] contains "quellen" or current[1] contains "playlists" or current[1] contains "info"  or current[1] contains "home" or current[1] contains "images" or current[1] contains "leitfragen" %}
          <ul><a href='{{site.baseurl}}/D/11'; {% if cnamelong == "11" or current.size < 1  %} style="color:#F38630;{% endif %}">Physik</a></ul>
          <ul><a href='{{site.baseurl}}/D/12'; {% if cnamelong == "12" %} style="color:#F38630;{% endif %}">Anorganische Chemie</a></ul>
          <ul><a href='{{site.baseurl}}/D/13'; {% if cnamelong == "13" %} style="color:#F38630;{% endif %}">Organische Chemie</a></ul>

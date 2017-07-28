@@ -1,7 +1,7 @@
 {% assign current = page.url | downcase | split: '/' %}
-{% assign cnamefull = current | last %}
-{% assign cname = cnamefull | truncate: 2 %}
-{% assign cnameshort = cnamelong | truncate: 1 %}
+{% assign cnamef = current | last %}
+{% assign cnamel = cnamef | truncate: 2 %}
+{% assign cnames = cnamel | truncate: 1 %}
 <nav>
    
 <ul class="flex-container"; style="font-size:175%">

@@ -4,7 +4,7 @@
 
 <nav>
    
-<ul class="flex-container"; style="font-size:175%"; margin-bottom: -0.5em;>
+<ul class="flex-container"; style="font-size:175%"; margin-bottom: -1.5em;>
    <li><a href='{{site.baseurl}}/D/11' {% if cnameshort == "1" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>
    <li><a href='{{site.baseurl}}/D/21' {% if cnameshort == "2" %} style="color:#F38630;"{% endif %}>Anatomie und Histologie</a></li>
    <li><a href='{{site.baseurl}}/D/31' {% if cnameshort == "3" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
@@ -14,7 +14,7 @@
 </ul>	
 
 
-<ul class="flex-container"; style="font-size:135%"; margin-bottom: -0.5em;>
+<ul class="flex-container"; style="font-size:135%"; margin-bottom: -0.15em;>
 {% if cnameshort == "1" or current.size < 1  or current[1] contains "impressum" or current[1] contains "blog" or cnameshort == "9" or current[1] contains "quellen" or current[1] contains "playlists" or current[1] contains "info"  or current[1] contains "home" or current[1] contains "images" or current[1] contains "leitfragen" %}
          <li><a href='{{site.baseurl}}/D/11'; {% if cnamelong == "11" or current.size < 1  %} style="color:#F38630;{% endif %}">Physik</a></li>
          <li><a href='{{site.baseurl}}/D/12'; {% if cnamelong == "12" %} style="color:#F38630;{% endif %}">Anorganische Chemie</a></li>

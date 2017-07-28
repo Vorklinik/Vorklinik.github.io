@@ -33,7 +33,7 @@
          <ul><a href='{{site.baseurl}}/D/26'; {% if cnamelong == "26" %} style="color:#F38630;{% endif %}">Histologie</a></ul>
 {% endif %}
 
-{% if current[1] contains "biochemie" %}
+{% if cnameshort == "3" %}
          <ul><a href='{{site.baseurl}}/3-biochemie/1-stoffwechsel'; {% if current[2] contains "1-stoffwechsel" %}style="color:#F38630;{% endif %}">Stoffwechsel</a></ul>
          <ul><a href='{{site.baseurl}}/3-biochemie/2-enzyme-signalweiterleitung-hormonsynthese'; {% if current[2] contains "2-enzyme" %}style="color:#F38630;{% endif %}">Enzyme und Signaltransduktion</a></ul>
          <ul><a href='{{site.baseurl}}/3-biochemie/3-blut-gewebe'; {% if current[2] contains "3-blut-gewebe" %}style="color:#F38630;{% endif %}">Blut und Gewebe</a></ul>
@@ -41,7 +41,7 @@
          <ul><a href='{{site.baseurl}}/3-biochemie/5-organspezifischer-stoffwechsel'; {% if current[2] contains "5-organspezifischer-stoffwechsel" %}style="color:#F38630;{% endif %}">Organspezifischer Stoffwechsel</a></ul>
    {% endif %}
 
-{% if current[1] contains "physiologie" %}
+{% if cnameshort == "4" %}
          <ul><a href='{{site.baseurl}}/4-physiologie/1-zellphysiologie'; {% if current[2] contains "1-zellphysiologie" %}style="color:#F38630;{% endif %}">Zellphysiologie</a></ul>
          <ul><a href='{{site.baseurl}}/4-physiologie/2-atmung-niere'; {% if current[2] contains "2-atmung-niere" %}style="color:#F38630;{% endif %}">Atmung/Niere</a></ul>
          <ul><a href='{{site.baseurl}}/4-physiologie/3-muskulatur'; {% if current[2] contains "muskulatur" %}style="color:#F38630;{% endif %}">Nerv/Muskulatur</a></ul>
@@ -51,7 +51,17 @@
          <ul><a href='{{site.baseurl}}/4-physiologie/7-neurophysiologie'; {% if current[2] contains "neurophysiologie" %}style="color:#F38630;{% endif %}">Neurophysiologie</a></ul>
 {% endif %}
 
-{% if current[1] contains "pathologie" %}
+            
+{% if cnameshort == "5" %}
+         <ul><a href='{{site.baseurl}}/pharmakologie/allgemeine-pharmakologie'; {% if current[2] contains "allgemeine-pharmakologie" %}style="color:#F38630;{% endif %}">Allgemeine Pharmakologie</a></ul>
+         <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Antibiotika</a></ul>
+         <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Analgetika</a></ul>
+         <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Nervensystem</a></ul>
+         <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Herz-Kreislauf-System</a></ul>
+         <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Andere Arzneimittel</a></ul>
+{% endif %}
+            
+{% if cnameshort == "6" %}
          <ul><a href='{{site.baseurl}}/pathologie/1-grundlagen-pathologie'; {% if current[2] contains "grundlagen" %}style="color:#F38630;{% endif %}">Grundlagen</a></ul>
          <ul><a href='{{site.baseurl}}/pathologie/herz-kreislauf-system,'; {% if current[2] contains "herz-kreislauf-system" %}style="color:#F38630;{% endif %}">Herz-Kreislauf-System</a></ul>
          <ul><a href='{{site.baseurl}}/pathologie/hormonsystem'; {% if current[2] contains "hormonsystem" %}style="color:#F38630;{% endif %}">Hormonsystem</a></ul>
@@ -62,14 +72,7 @@
 {% endif %}
 
 
-{% if current[1] contains "pharmakologie" %}
-         <ul><a href='{{site.baseurl}}/pharmakologie/allgemeine-pharmakologie'; {% if current[2] contains "allgemeine-pharmakologie" %}style="color:#F38630;{% endif %}">Allgemeine Pharmakologie</a></ul>
-         <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Antibiotika</a></ul>
-         <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Analgetika</a></ul>
-         <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Nervensystem</a></ul>
-         <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Herz-Kreislauf-System</a></ul>
-         <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Andere Arzneimittel</a></ul>
-{% endif %}
+
 
 
 </nav>

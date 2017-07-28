@@ -1,4 +1,5 @@
 {% assign current = page.url | downcase | split: '/' %}
+{% assign currentname = page.url | downcase | split: '/' | last %}
 <nav>
 <ul class="flex-container"; style="font-size:175%">
    <li><a href='{{site.baseurl}}/1-grundlagen/1-physik' {% if current[1] contains "1-grundlagen" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>

@@ -25,12 +25,12 @@
 {% endif %}
 
 {% if cnameshort == "2" %}
-         <ul><a href='{{site.baseurl}}/D/21'; {% if current[2] contains "1-embryologie" or current.size < 1  %} style="color:#F38630;{% endif %}">Embryologie</a></ul>
-         <ul><a href='{{site.baseurl}}/D/22'; {% if current[2] contains "2-extremitaeten" %} style="color:#F38630;{% endif %}">Obere und untere Extremität</a></ul>
-         <ul><a href='{{site.baseurl}}/D/23'; {% if current[2] contains "3-rumpf-und-innere-organe" %} style="color:#F38630;{% endif %}">Rumpf und innere Organe</a></ul>
-         <ul><a href='{{site.baseurl}}/D/24'; {% if current[2] contains "4-kopf-und-hals" %} style="color:#F38630;{% endif %}">Kopf und Hals</a></ul>
-         <ul><a href='{{site.baseurl}}/D/25'; {% if current[2] contains "5-neuroanatomie" %} style="color:#F38630;{% endif %}">Neuroanatomie</a></ul>
-         <ul><a href='{{site.baseurl}}/D/26'; {% if current[2] contains "6-histologie" %} style="color:#F38630;{% endif %}">Histologie</a></ul>
+         <ul><a href='{{site.baseurl}}/D/21'; {% if cnamelong == "21" or current.size < 1  %} style="color:#F38630;{% endif %}">Embryologie</a></ul>
+         <ul><a href='{{site.baseurl}}/D/22'; {% if cnamelong == "22" %} style="color:#F38630;{% endif %}">Obere und untere Extremität</a></ul>
+         <ul><a href='{{site.baseurl}}/D/23'; {% if cnamelong == "23" %} style="color:#F38630;{% endif %}">Rumpf und innere Organe</a></ul>
+         <ul><a href='{{site.baseurl}}/D/24'; {% if cnamelong == "24" %} style="color:#F38630;{% endif %}">Kopf und Hals</a></ul>
+         <ul><a href='{{site.baseurl}}/D/25'; {% if cnamelong == "25" %} style="color:#F38630;{% endif %}">Neuroanatomie</a></ul>
+         <ul><a href='{{site.baseurl}}/D/26'; {% if cnamelong == "26" %} style="color:#F38630;{% endif %}">Histologie</a></ul>
 {% endif %}
 
 {% if current[1] contains "biochemie" %}

@@ -34,7 +34,7 @@
 {% endif %}
 
 {% if cnameshort == "3" %}
-         <ul><a href='{{site.baseurl}}/D/31'; {% if current[2] contains "1-stoffwechsel" %}style="color:#F38630;{% endif %}">Stoffwechsel</a></ul>
+         <ul><a href='{{site.baseurl}}/D/31'; {% if cnamelong == "31" %}style="color:#F38630;{% endif %}">Stoffwechsel</a></ul>
          <ul><a href='{{site.baseurl}}/D/32'; {% if current[2] contains "2-enzyme" %}style="color:#F38630;{% endif %}">Enzyme und Signaltransduktion</a></ul>
          <ul><a href='{{site.baseurl}}/D/33'; {% if current[2] contains "3-blut-gewebe" %}style="color:#F38630;{% endif %}">Blut und Gewebe</a></ul>
          <ul><a href='{{site.baseurl}}/D/34'; {% if current[2] contains "4-molekularbio" %}style="color:#F38630;{% endif %}">Molekularbiologie</a></ul>
@@ -42,7 +42,7 @@
    {% endif %}
 
 {% if cnameshort == "4" %}
-         <ul><a href='{{site.baseurl}}/D/41'; {% if current[2] contains "1-zellphysiologie" %}style="color:#F38630;{% endif %}">Zellphysiologie</a></ul>
+         <ul><a href='{{site.baseurl}}/D/41'; {% if cnamelong == "41"" %}style="color:#F38630;{% endif %}">Zellphysiologie</a></ul>
          <ul><a href='{{site.baseurl}}/D/42'; {% if current[2] contains "2-atmung-niere" %}style="color:#F38630;{% endif %}">Atmung/Niere</a></ul>
          <ul><a href='{{site.baseurl}}/D/43'; {% if current[2] contains "muskulatur" %}style="color:#F38630;{% endif %}">Nerv/Muskulatur</a></ul>
          <ul><a href='{{site.baseurl}}/D/44'; {% if current[2] contains "kreislauf" %}style="color:#F38630;{% endif %}">Herz/Kreislauf</a></ul>
@@ -53,7 +53,7 @@
 
             
 {% if cnameshort == "5" %}
-         <ul><a href='{{site.baseurl}}/D/51'; {% if current[2] contains "allgemeine-pharmakologie" %}style="color:#F38630;{% endif %}">Allgemeine Pharmakologie</a></ul>
+         <ul><a href='{{site.baseurl}}/D/51'; {% cnamelong == "51" %}style="color:#F38630;{% endif %}">Allgemeine Pharmakologie</a></ul>
          <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Antibiotika</a></ul>
          <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Analgetika</a></ul>
          <ul><a href='{{site.baseurl}}/pharmakologie/antibiotika'; {% if current[2] contains "antibiotika" %}style="color:#F38630;{% endif %}">Nervensystem</a></ul>

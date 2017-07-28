@@ -1,6 +1,6 @@
 {% assign current = page.url | downcase | split: '/' %}
-{% assign cnamelong = current | last | truncate: 2 %}
-{% assign cnameshort = current | last | truncate: 1 %}
+{% assign cnamelong = current | last | truncate: 2, "" %}
+{% assign cnameshort = current | last | truncate: 1, "" %}
 
 <nav>
    

@@ -1,6 +1,6 @@
 {% assign current = page.url | downcase | split: '/' %}
-{% assign currentnamelong = page.url | downcase | split: '/' | last | truncate: 2 %}
-{% assign currentnameshort = currentnameshort | truncate: 1 %}
+{% assign cnamelong = page.url | downcase | split: '/' | last | truncate: 2 %}
+{% assign cnameshort = cnamelong | truncate: 1 %}
 <nav>
 <ul class="flex-container"; style="font-size:175%">
    <li><a href='{{site.baseurl}}/D/11' {% if currentnameshort == "1" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>

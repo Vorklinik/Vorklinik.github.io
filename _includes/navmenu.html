@@ -3,7 +3,7 @@
 {% assign cnamel = cnamef | truncate: 2 %}
 {% assign cnames = cnamel | truncate: 1 %}
 <nav>
-   
+   {% cnames %}
 <ul class="flex-container"; style="font-size:175%">
    <li><a href='{{site.baseurl}}/D/11' {% if cnameshort == "1" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>
    <li><a href='{{site.baseurl}}/D/21' {% if cnameshort == "2" %} style="color:#F38630;"{% endif %}>Anatomie und Histologie</a></li>

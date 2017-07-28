@@ -1,8 +1,9 @@
 {% assign current = page.url | downcase | split: '/' %}
-{% assign currentname = page.url | downcase | split: '/' | last | truncate: 2 %}
+{% assign currentnamelong = page.url | downcase | split: '/' | last | truncate: 2 %}
+{% assign currentnameshort = currentnameshort | truncate: 1 %}
 <nav>
 <ul class="flex-container"; style="font-size:175%">
-   <li><a href='{{site.baseurl}}/1-grundlagen/1-physik' {% if current[1] contains "1-grundlagen" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>
+   <li><a href='{{site.baseurl}}/D/11' {% if currentnameshort == "1" or current.size < 1 %} style="color:#F38630;"{% endif %}>Grundlagen</a></li>
    <li><a href='{{site.baseurl}}/2-anatomie/1-embryologie' {% if current[1] contains "2-anatomie" %} style="color:#F38630;"{% endif %}>Anatomie und Histologie</a></li>
    <li><a href='{{site.baseurl}}/3-biochemie/1-stoffwechsel' {% if current[1] contains "3-biochemie" %} style="color:#F38630;"{% endif %}>Biochemie</a></li>
    <li><a href='{{site.baseurl}}/4-physiologie/1-zellphysiologie' {% if current[1] contains "4-physiologie" %} style="color:#F38630;"{% endif %}>Physiologie</a></li>

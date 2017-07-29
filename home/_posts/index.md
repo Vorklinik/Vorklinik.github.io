@@ -1,5 +1,5 @@
 ---
-layout: post_home.html
+layout: post_home
 title: Home
 vidid_yt: 2uLYO1LUf6Q
 ---

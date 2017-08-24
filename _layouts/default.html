@@ -9,7 +9,7 @@
 	<div id="banner">
 	</div>
 	{% include navmenu.html %}
-	<h1>{% include backarrow.html %} {{ page.title }} {% if page.categories contains 'blog' %} ({{ page.date | date: "%d-%m-%Y" }}){% endif %}</h1>
+	<h1>{% include backarrow.html %} {{ page.title }} {% if page.categories contains 'blog' %} {% endif %}</h1>
 		{{ content }}
 	<p></p>
 	{% include footer.html %}

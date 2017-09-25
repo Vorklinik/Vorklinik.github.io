@@ -1,5 +1,4 @@
 {% if page.url contains '_img' or page.url contains '_qst' %}
-{% assign targeturl = page.url | replace: '_img', '' %}
-{% assign targeturl = page.url | replace: '_qst', '' %}
+{% assign targeturl = page.url | replace: '_img', '' | replace: '_qst', ''  %}
 <a href="{{ targeturl }}"><i class="fa fa-arrow-left"  style="color:#F38630" aria-hidden="true"></i></a> 
 {% endif %}

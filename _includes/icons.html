@@ -1,8 +1,10 @@
 {% assign filename = page.url | replace: '.html', '' | split: '/'  | last %}
 
-<a href="{{ page.url }}_img" style="float:right;margin-left: 10px; color:grey"><i class="fa fa fa-pencil fa-1x zoom-icon"></i></a>
+{% unless page.img %}<a href="{{ page.url }}_img" style="float:right;margin-left: 10px; color:grey"><i class="fa fa fa-pencil fa-1x zoom-icon"></i></a>
+{% endunless %}
 
-<a href="{% include filesurl.html %}{{ filename }}_anki.apkg" style="float:right;margin-left: 10px; color:grey" download><i class="fa fa-list-alt fa-1x zoom-icon"></i></a>
+{% unless page.anki%}<a href="{% include filesurl.html %}{{ filename }}_anki.apkg" style="float:right;margin-left: 10px; color:grey" download><i class="fa fa-list-alt fa-1x zoom-icon"></i></a>
+{% endunless %}
 
 {% unless page.qst %}<a href="{{ page.url }}_qst" style="float:right;margin-left: 10px; color:grey"><i class="fa fa fa-question fa-1x zoom-icon"></i></a>
 {% endunless %}

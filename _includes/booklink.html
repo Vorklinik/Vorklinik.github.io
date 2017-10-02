@@ -1,5 +1,5 @@
 {% unless page.ref %}
-{% if page.book %}
+{% if page.book == "0" %}
 <a target="_blank" style="text-decoration: underline;color:black;"{% include {{ page.book }}.html %}{{ page.refpages }}
 {% endif %}
 {% endunless %}
